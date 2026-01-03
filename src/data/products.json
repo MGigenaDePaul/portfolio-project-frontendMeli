@@ -1,0 +1,52 @@
+{
+    "results": [
+        {
+            "id": "MLA1",
+            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
+            "price": 1980,
+            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
+            "shipping": {
+                "free_shipping": true
+            },
+            "address": {
+                "state_name": "Capital Federal"
+            }
+        },
+           {
+            "id": "MLA2",
+            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
+            "price": 1980,
+            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
+            "shipping": {
+                "free_shipping": false
+            },
+            "address": {
+                "state_name": "Mendoza"
+            }
+        },
+        {
+            "id": "MLA3",
+            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
+            "price": 1980,
+            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
+            "shipping": {
+                "free_shipping": true
+            },
+            "address": {
+                "state_name": "Capital Federal"
+            }
+        },
+        {
+            "id": "MLA4",
+            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
+            "price": 1980,
+            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
+            "shipping": {
+                "free_shipping": true
+            },
+            "address": {
+                "state_name": "Capital Federal"
+            }
+        }
+    ]
+}
