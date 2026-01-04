@@ -51,19 +51,6 @@
         { "name": "Reproductores y Accesorios" },
         { "name": "iPod" }
       ]
-    },
-    {
-      "id": "MLA5",
-      "title": "Apple iPod Touch 5g 16gb Azul Completo En Caja",
-      "price": 2300,
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/fKXJWkGNb4vQbaLoSgJ8e9.jpg",
-      "shipping": { "free_shipping": false },
-      "address": { "state_name": "Buenos Aires" },
-      "category_path_from_root": [
-        { "name": "Electrónica, Audio y Video" },
-        { "name": "Reproductores y Accesorios" },
-        { "name": "iPod" }
-      ]
     }
   ]
 }

@@ -20,7 +20,7 @@
             "price": 2100,
             "condition": "used",
             "sold_quantity": 156,
-            "fullImage": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipod-touch-blue-select-201509?wid=470&hei=556&fmt=png-alpha&.v=1566254643392",
+            "fullImage": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_ae72bebe_mirakl_image_2_large.jpg",
             "description": "iPod Touch 5G de 16GB en color azul. Dispositivo usado en muy buen estado, sin rayones significativos. Batería en perfecto funcionamiento. Perfecto para quien busca un reproductor portátil de alta calidad a buen precio.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
@@ -50,20 +50,6 @@
             "sold_quantity": 312,
             "fullImage": "https://m.media-amazon.com/images/I/71tytvXunnS.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
             "description": "iPod Touch de 6ta generación con 64GB en elegante color gris espacial. Modelo más reciente con mejor procesador y cámara mejorada. Nuevo en caja, sin uso. Incluye todos los accesorios originales. La mejor opción para quienes buscan tecnología de última generación.",
-            "category_path_from_root": [
-                { "name": "Electrónica, Audio y Video" },
-                { "name": "Reproductores y Accesorios" },
-                { "name": "iPod" }
-            ]
-        },
-        {
-            "id": "MLA5",
-            "title": "Apple iPod Touch 5g 16gb Azul Completo En Caja",
-            "price": 2300,
-            "condition": "new",
-            "sold_quantity": 198,
-            "fullImage": "https://cdn.mos.cms.futurecdn.net/fKXJWkGNb4vQbaLoSgJ8e9.jpg",
-            "description": "iPod Touch 5G de 16GB en vibrante color azul. Producto nuevo, sellado en caja original con todos los accesorios. Incluye auriculares EarPods y cable Lightning. Garantía del vendedor. Ideal como regalo o para estrenar tecnología Apple.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
                 { "name": "Reproductores y Accesorios" },
