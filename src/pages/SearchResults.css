@@ -18,8 +18,9 @@
 
 .thumbnail{
     height: 250px;
-    width: auto;
+    width: 250px;
     margin: 5px;
+    object-fit: contain;
 }
 
 .container-price-shipping-title{

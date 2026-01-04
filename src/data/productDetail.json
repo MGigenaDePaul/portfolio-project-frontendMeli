@@ -1,14 +1,13 @@
-
 {
     "details": [
         {
             "id": "MLA1",
-            "title": "Deco Reverse Sombrero Oxford",
+            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo",
             "price": 1980,
             "condition": "new",
             "sold_quantity": 234,
-            "fullImage": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "description": "The Scarpa di Bianco Italian footwear collection was founded by Bill White in 2009. Di Bianco offers a very sophisticated selection of boots, shoes, and flats from Italy. The combination of impeccable models and details with contemporary colors and styling, results in decidedly current, yet elegant models. The aim of the Scarpa di Bianco company is to offer men a custom-shoe buying experience through a multitude of models, lasts, sizes, leathers, and color options.",
+            "fullImage": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_afc5e3ea_mirakl_image_1_large.jpg",
+            "description": "Apple iPod Touch de 5ta generación con 16GB de almacenamiento en color negro. Producto en excelente estado, completamente funcional. Incluye cable de carga original. Ideal para escuchar música, ver videos y descargar apps. Pantalla Retina de 4 pulgadas con gran calidad de imagen.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
                 { "name": "Reproductores y Accesorios" },
@@ -17,12 +16,12 @@
         }, 
         {
             "id": "MLA2",
-            "title": "Deco Reverse Sombrero Oxford",
-            "price": 1980,
-            "condition": "old",
-            "sold_quantity": 234,
-            "fullImage": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "description": "The Scarpa di Bianco Italian footwear collection was founded by Bill White in 2009. Di Bianco offers a very sophisticated selection of boots, shoes, and flats from Italy. The combination of impeccable models and details with contemporary colors and styling, results in decidedly current, yet elegant models. The aim of the Scarpa di Bianco company is to offer men a custom-shoe buying experience through a multitude of models, lasts, sizes, leathers, and color options.",
+            "title": "Apple iPod Touch 5g 16gb Rosa Excelente Estado",
+            "price": 2100,
+            "condition": "used",
+            "sold_quantity": 156,
+            "fullImage": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipod-touch-blue-select-201509?wid=470&hei=556&fmt=png-alpha&.v=1566254643392",
+            "description": "iPod Touch 5G de 16GB en color azul. Dispositivo usado en muy buen estado, sin rayones significativos. Batería en perfecto funcionamiento. Perfecto para quien busca un reproductor portátil de alta calidad a buen precio.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
                 { "name": "Reproductores y Accesorios" },
@@ -31,12 +30,12 @@
         },
         {
             "id": "MLA3",
-            "title": "Deco Reverse Sombrero Oxford",
-            "price": 1980,
-            "condition": "new",
-            "sold_quantity": 234,
-            "fullImage": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "description": "The Scarpa di Bianco Italian footwear collection was founded by Bill White in 2009. Di Bianco offers a very sophisticated selection of boots, shoes, and flats from Italy. The combination of impeccable models and details with contemporary colors and styling, results in decidedly current, yet elegant models. The aim of the Scarpa di Bianco company is to offer men a custom-shoe buying experience through a multitude of models, lasts, sizes, leathers, and color options.",
+            "title": "Apple iPod Touch 5g 32gb Celeste Usado",
+            "price": 2500,
+            "condition": "used",
+            "sold_quantity": 89,
+            "fullImage": "https://www.awadelectronics.com/cdn/shop/files/s-l1600_3.webp?v=1732482585",
+            "description": "iPod Touch de 32GB, mayor capacidad de almacenamiento para toda tu música y apps favoritas. Estado usado pero en perfectas condiciones de funcionamiento. Pantalla sin marcas. Gran oportunidad para tener un iPod con más espacio.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
                 { "name": "Reproductores y Accesorios" },
@@ -45,17 +44,31 @@
         },
         {
             "id": "MLA4",
-            "title": "Deco Reverse Sombrero Oxford",
-            "price": 1980,
+            "title": "Apple iPod Touch 6g 64gb Dorado Espacial",
+            "price": 3200,
             "condition": "new",
-            "sold_quantity": 234,
-            "fullImage": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "description": "The Scarpa di Bianco Italian footwear collection was founded by Bill White in 2009. Di Bianco offers a very sophisticated selection of boots, shoes, and flats from Italy. The combination of impeccable models and details with contemporary colors and styling, results in decidedly current, yet elegant models. The aim of the Scarpa di Bianco company is to offer men a custom-shoe buying experience through a multitude of models, lasts, sizes, leathers, and color options.",
+            "sold_quantity": 312,
+            "fullImage": "https://m.media-amazon.com/images/I/71tytvXunnS.jpg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+            "description": "iPod Touch de 6ta generación con 64GB en elegante color gris espacial. Modelo más reciente con mejor procesador y cámara mejorada. Nuevo en caja, sin uso. Incluye todos los accesorios originales. La mejor opción para quienes buscan tecnología de última generación.",
+            "category_path_from_root": [
+                { "name": "Electrónica, Audio y Video" },
+                { "name": "Reproductores y Accesorios" },
+                { "name": "iPod" }
+            ]
+        },
+        {
+            "id": "MLA5",
+            "title": "Apple iPod Touch 5g 16gb Azul Completo En Caja",
+            "price": 2300,
+            "condition": "new",
+            "sold_quantity": 198,
+            "fullImage": "https://cdn.mos.cms.futurecdn.net/fKXJWkGNb4vQbaLoSgJ8e9.jpg",
+            "description": "iPod Touch 5G de 16GB en vibrante color azul. Producto nuevo, sellado en caja original con todos los accesorios. Incluye auriculares EarPods y cable Lightning. Garantía del vendedor. Ideal como regalo o para estrenar tecnología Apple.",
             "category_path_from_root": [
                 { "name": "Electrónica, Audio y Video" },
                 { "name": "Reproductores y Accesorios" },
                 { "name": "iPod" }
             ]
         }
-    ]
+    ]                                                                                                       
 }

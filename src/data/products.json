@@ -1,72 +1,69 @@
 {
-    "results": [
-        {
-            "id": "MLA1",
-            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
-            "price": 1980,
-            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "shipping": {
-                "free_shipping": true
-            },
-            "address": {
-                "state_name": "Capital Federal"
-            },
-            "category_path_from_root": [
-                { "name": "Electrónica, Audio y Video" },
-                { "name": "Reproductores y Accesorios" },
-                { "name": "iPod" }
-            ]
-        },
-           {
-            "id": "MLA2",
-            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
-            "price": 1980,
-            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "shipping": {
-                "free_shipping": false
-            },
-            "address": {
-                "state_name": "Mendoza"
-            },
-            "category_path_from_root": [
-                { "name": "Electrónica, Audio y Video" },
-                { "name": "Reproductores y Accesorios" },
-                { "name": "iPod" }
-            ]
-        },
-        {
-            "id": "MLA3",
-            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
-            "price": 1980,
-            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "shipping": {
-                "free_shipping": true
-            },
-            "address": {
-                "state_name": "Capital Federal"
-            },
-            "category_path_from_root": [
-                { "name": "Electrónica, Audio y Video" },
-                { "name": "Reproductores y Accesorios" },
-                { "name": "iPod" }
-            ]
-        },
-        {
-            "id": "MLA4",
-            "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo Completo Único!",
-            "price": 1980,
-            "thumbnail": "https://i.blogs.es/d0c901/nuevo-20ipod-20touch-2016-20gb/450_1000.png",
-            "shipping": {
-                "free_shipping": true
-            },
-            "address": {
-                "state_name": "Capital Federal"
-            },
-            "category_path_from_root": [
-                { "name": "Electrónica, Audio y Video" },
-                { "name": "Reproductores y Accesorios" },
-                { "name": "iPod" }
-            ]
-        }
-    ]
+  "results": [
+    {
+      "id": "MLA1",
+      "title": "Apple iPod Touch 5g 16gb Negro Igual A Nuevo",
+      "price": 1980,
+      "thumbnail": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_afc5e3ea_mirakl_image_1_large.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Capital Federal" },
+      "category_path_from_root": [
+        { "name": "Electrónica, Audio y Video" },
+        { "name": "Reproductores y Accesorios" },
+        { "name": "iPod" }
+      ]
+    },
+    {
+      "id": "MLA2",
+      "title": "Apple iPod Touch 5g 16gb Rosa Excelente Estado",
+      "price": 2100,
+      "thumbnail": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_ae72bebe_mirakl_image_2_large.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Electrónica, Audio y Video" },
+        { "name": "Reproductores y Accesorios" },
+        { "name": "iPod" }
+      ]
+    },
+    {
+      "id": "MLA3",
+      "title": "Apple iPod Touch 5g 32gb Celeste Usado",
+      "price": 2500,
+      "thumbnail": "https://www.awadelectronics.com/cdn/shop/files/s-l1600_3.webp?v=1732482585",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Electrónica, Audio y Video" },
+        { "name": "Reproductores y Accesorios" },
+        { "name": "iPod" }
+      ]
+    },
+    {
+      "id": "MLA4",
+      "title": "Apple iPod Touch 6g 64gb Dorado Espacial",
+      "price": 3200,
+      "thumbnail": "https://m.media-amazon.com/images/I/71tytvXunnS.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Electrónica, Audio y Video" },
+        { "name": "Reproductores y Accesorios" },
+        { "name": "iPod" }
+      ]
+    },
+    {
+      "id": "MLA5",
+      "title": "Apple iPod Touch 5g 16gb Azul Completo En Caja",
+      "price": 2300,
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/fKXJWkGNb4vQbaLoSgJ8e9.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Electrónica, Audio y Video" },
+        { "name": "Reproductores y Accesorios" },
+        { "name": "iPod" }
+      ]
+    }
+  ]
 }
