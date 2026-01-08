@@ -4,51 +4,18 @@ import freeShipping from '../assets/thumbnails/shipping-back-removed.png'
 import './SearchResults.css'
 import BreadCrumb from '../components/Breadcrumb'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-
-const normalize = (str = '') =>
-  String(str)
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // saca tildes
-
-const vehicleKeywords = new Set([
-  'auto',
-  'autos',
-  'vehiculo',
-  'vehiculos',
-  'camioneta',
-  'camionetas',
-  'moto',
-  'motos',
-  'pickup',
-  'pickups',
-  'camion',
-  'camiones',
-])
-
-const isVehicleIntent = (q) => {
-  // split simple por espacios
-  const tokens = q.split(/\s+/).filter(Boolean)
-  return tokens.some((t) => vehicleKeywords.has(t))
-}
-
-// Detecta autos reales por categoria exacta (la que vos pediste)
-const isVehicleCategory = (product) => {
-  const cats = product.category_path_from_root?.map((c) => normalize(c.name)) ?? []
-  return (
-    cats.length >= 3 &&
-    cats[0] === 'autos' &&
-    cats[1] === 'motos y otros' &&
-    cats[2] === 'autos y camionetas'
-  )
-}
-
-const buildSearchText = (product) => {
-  const title = product.title ?? ''
-  const state = product.address?.state_name ?? ''
-  const cats = product.category_path_from_root?.map((c) => c.name).join(' ') ?? ''
-  return normalize(`${title} ${state} ${cats}`)
-}
+import {
+  normalize,
+  isVehicleIntent,
+  isVehicleCategory,
+  buildSearchText,
+  isCameraIntent,
+  isSecurityModifier,
+  isSecurityCameraProduct,
+  extractCarBrand,
+  matchesQuery,
+  isCameraProduct,
+} from '../helpers/helpers.js'
 
 const SearchResults = () => {
   const navigate = useNavigate()
@@ -61,18 +28,45 @@ const SearchResults = () => {
   // 1) Búsqueda general (lo que ya tenías, pero mejor: con buildSearchText)
   const generalMatches = all.filter((p) => {
     if (!q) return true
-    return buildSearchText(p).includes(q)
+    return matchesQuery(p, q)
   })
 
-  // 2) Si la intención es "vehiculo", priorizamos autos reales
   let filteredProducts = generalMatches
-  if (q && isVehicleIntent(q)) {
-    const vehicleMatches = generalMatches.filter((p) => isVehicleCategory(p))
 
-    // Si encuentro autos reales, uso SOLO esos
-    // Si no encuentro, vuelvo a generalMatches (para no dejar vacío)
-    if (vehicleMatches.length > 0) {
-      filteredProducts = vehicleMatches
+  if (q) {
+    // A) INTENCIÓN: VEHÍCULOS (autos por marca)
+    if (isVehicleIntent(q)) {
+      let vehicleMatches = generalMatches.filter((p) => isVehicleCategory(p))
+
+      // Si hay marca en la query, filtramos dentro de autos
+      const brand = extractCarBrand(q)
+      if (brand) {
+        vehicleMatches = vehicleMatches.filter((p) =>
+          buildSearchText(p).includes(brand),
+        )
+      }
+
+      if (vehicleMatches.length > 0) {
+        filteredProducts = vehicleMatches
+      }
+    }
+
+    // B) INTENCIÓN: CÁMARAS
+    if (isCameraIntent(q)) {
+      const wantsSecurity = isSecurityModifier(q)
+
+      const onlyCameras = all.filter((p) => isCameraProduct(p))
+
+      // 2) distinguimos si es camara de seguridad o no.
+      const cameraMatches = onlyCameras.filter((p) => {
+        const isSecurity = isSecurityCameraProduct(p)
+        if (!wantsSecurity) return !isSecurity
+        return isSecurity
+      })
+
+      if (cameraMatches.length > 0) {
+        filteredProducts = cameraMatches
+      }
     }
   }
 
@@ -98,12 +92,22 @@ const SearchResults = () => {
               onClick={() => navigate(`/items/${product.id}`)}
               className="buttons"
             >
-              <img className="thumbnail" src={product.thumbnail} alt="thumbnail" />
+              <img
+                className="thumbnail"
+                src={product.thumbnail}
+                alt="thumbnail"
+              />
               <div className="container-price-shipping-title">
                 <div className="price-shipping">
-                  <p className="price">$ {product.price.toLocaleString('es-AR')}</p>
+                  <p className="price">
+                    $ {product.price.toLocaleString('es-AR')}
+                  </p>
                   {product.shipping?.free_shipping === true && (
-                    <img className="shipping" src={freeShipping} alt="free_shipping" />
+                    <img
+                      className="shipping"
+                      src={freeShipping}
+                      alt="free_shipping"
+                    />
                   )}
                 </div>
                 <p className="title">{product.title}</p>
