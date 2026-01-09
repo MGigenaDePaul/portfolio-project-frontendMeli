@@ -7664,7 +7664,7 @@
     {
       "id": "MLA588",
       "title": "Aston Martin Vantage 0km",
-      "price": 820000000, 
+      "price": 820000000,
       "thumbnail": "https://www.diariomotor.com/imagenes/2024/05/aston-martin-vantage-2024-prueba-241-mdm.jpg?class=XL",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Cordoba" },
@@ -8088,6 +8088,1046 @@
         { "name": "Vehiculos" },
         { "name": "Autos" },
         { "name": "Deportivos" }
+      ]
+    },
+    {
+      "id": "MLA621",
+      "title": "Paleta de sombras 18 tonos nude y glitter",
+      "price": 28900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/005/858/878/products/my826016-tono1-5ef7d2d791e0f9464017448264918655-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Sombras" }
+      ]
+    },
+    {
+      "id": "MLA622",
+      "title": "Base liquida matte larga duracion tono medio",
+      "price": 31900,
+      "thumbnail": "https://gpsfarma.com/media/catalog/product/7/5/7509552828535_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=90&width=93&canvas=93:90",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA623",
+      "title": "Corrector liquido alta cobertura anti ojeras",
+      "price": 21900,
+      "thumbnail": "https://farmacorp.com/cdn/shop/files/7509552840292_1024x1024.jpg?v=1765803045",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA624",
+      "title": "Polvo compacto translcido sellador",
+      "price": 24500,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/005/858/878/products/my820001-tono1-09e4a1ae0764df468217448303667105-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA625",
+      "title": "Rubor compacto rosa natural",
+      "price": 17900,
+      "thumbnail": "https://www.bagues.com.ar/cdn/shop/files/BCRRCSUN_dbec3867-35d1-4fa3-b06b-89949714b7fb.png?v=1756851277&width=2048",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA626",
+      "title": "Iluminador en polvo efecto glow",
+      "price": 19900,
+      "thumbnail": "https://d22fxaf9t8d39k.cloudfront.net/9b61674bb516873f3c1f6c52b36b3974e3a6e2a4c9c28f2c00cc3985184a12ec192200.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Tucuman" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA627",
+      "title": "Bronzer matte para contorno",
+      "price": 20900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/711/055/products/fichas-mercado-libre-70-cb1e60028fe072c6d617392993091730-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Rostro" }
+      ]
+    },
+    {
+      "id": "MLA628",
+      "title": "Primer facial alisante minimiza poros",
+      "price": 27900,
+      "thumbnail": "https://glossecuador.com/wp-content/uploads/2023/07/PRIMER-MINIZADOR-DE-POROS-SENSITIVE-MINERAL-VEGAN-30ML-TOPFACE.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Prebases" }
+      ]
+    },
+    {
+      "id": "MLA629",
+      "title": "Fijador de maquillaje spray 120ml",
+      "price": 25900,
+      "thumbnail": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nlo/nlo94365/y/8.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Fijadores" }
+      ]
+    },
+    {
+      "id": "MLA630",
+      "title": "Esponja blender maquillaje pack x3",
+      "price": 14900,
+      "thumbnail": "https://getthelookar.vtexassets.com/arquivos/ids/181622-800-auto?v=638556383847530000&width=800&height=auto&aspect=true",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Juan" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios de Maquillaje" },
+        { "name": "Esponjas" }
+      ]
+    },
+    {
+      "id": "MLA631",
+      "title": "Set brochas maquillaje 12 piezas con estuche",
+      "price": 39900,
+      "thumbnail": "https://www.86irons.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/550_800.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios de Maquillaje" },
+        { "name": "Brochas" }
+      ]
+    },
+    {
+      "id": "MLA632",
+      "title": "Delineador liquido negro waterproof",
+      "price": 15900,
+      "thumbnail": "https://www.siemprefarmacias.com.ar/contenido/productos/original/1660762669-48.jpeg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA633",
+      "title": "Lapiz delineador retrctil marron",
+      "price": 12900,
+      "thumbnail": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-ar-storefront-catalog/default/dw8c55e228/1200x1200/27703_1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA634",
+      "title": "Mascara de pestañas volumen extremo",
+      "price": 23900,
+      "thumbnail": "https://sdcdn.io/cl/cl_sku_7LYW01_2400x2400_0.jpg?height=700px&width=700px",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA635",
+      "title": "Rizador de pestaas metalico profesional",
+      "price": 17900,
+      "thumbnail": "https://m.media-amazon.com/images/I/51pm3Mqj8nL._AC_UF1000,1000_QL80_.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios de Maquillaje" },
+        { "name": "Pestaas" }
+      ]
+    },
+    {
+      "id": "MLA636",
+      "title": "Cejas gel fijador transparente",
+      "price": 16900,
+      "thumbnail": "https://exotik.store/cdn/shop/files/gel-fijador-para-cejas-transparente-AND-cosmetics_720x.jpg?v=1690926390",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Tucuman" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Cejas" }
+      ]
+    },
+    {
+      "id": "MLA637",
+      "title": "Lapiz para cejas con cepillo tono oscuro",
+      "price": 14900,
+      "thumbnail": "https://farmacityar.vtexassets.com/arquivos/ids/208584/220157_cepillo-de-cejas-extreme-brow-4ever-claro_imagen-1.jpg?v=637517788842670000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Cejas" }
+      ]
+    },
+    {
+      "id": "MLA638",
+      "title": "Labial matte larga duracion rojo clasico",
+      "price": 18900,
+      "thumbnail": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-ar-storefront-catalog/default/dw25e3016b/1200x1200/54406_1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Labios" }
+      ]
+    },
+    {
+      "id": "MLA639",
+      "title": "Gloss labial efecto volumen",
+      "price": 15900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/006/083/237/products/plump-mauve-15f8c8e5aa164b791017519136544329-1024-1024.webp",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Labios" }
+      ]
+    },
+    {
+      "id": "MLA640",
+      "title": "Balsamo labial hidratante con manteca de karit",
+      "price": 11900,
+      "thumbnail": "https://ar.loccitane.com/cdn/shop/files/1200_PNG-01BL012K23_RVB.png?v=1722623729",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Misiones" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Labios" }
+      ]
+    },
+    {
+      "id": "MLA641",
+      "title": "Agua micelar 400ml limpieza facial",
+      "price": 16900,
+      "thumbnail": "https://www.farmacialeloir.com.ar/img/articulos/2024/11/imagen2_adermicina_cuidado_facial_agua_micelar_5_en_1_imagen2.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Luis" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Limpieza" }
+      ]
+    },
+    {
+      "id": "MLA642",
+      "title": "Gel limpiador facial purificante 200ml",
+      "price": 18900,
+      "thumbnail": "https://www.farmacialeloir.com.ar/img/articulos/2024/07/imagen1_la_roche_posay_effaclar_gel_moussant_purificante_200ml_imagen1.webp",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Chaco" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Limpieza" }
+      ]
+    },
+    {
+      "id": "MLA643",
+      "title": "Serum acido hialuronico hidratacion intensa 30ml",
+      "price": 34900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/003/862/088/products/hdm-cosmeticos-8-d56eab089123d0979617470135264621-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Serums" }
+      ]
+    },
+    {
+      "id": "MLA644",
+      "title": "Serum vitamina C iluminador 30ml",
+      "price": 36900,
+      "thumbnail": "https://farmacityar.vtexassets.com/arquivos/ids/270546/227775_serum-facial-garnier-iluminador-vitamina-c-x-30-ml__imagen-1.jpg.jpg?v=638828226852730000",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Serums" }
+      ]
+    },
+    {
+      "id": "MLA645",
+      "title": "Crema hidratante facial dia y noche 50g",
+      "price": 22900,
+      "thumbnail": "https://tienda.andromaco.com/on/demandware.static/-/Sites-andro_master_catalog/default/dwa881f608/images/large/7793742008689.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Hidratantes" }
+      ]
+    },
+    {
+      "id": "MLA646",
+      "title": "Crema contorno de ojos anti fatiga 15ml",
+      "price": 25900,
+      "thumbnail": "https://farmacityar.vtexassets.com/arquivos/ids/199787/130737_crema-hidratante-para-contorno-de-ojos-hydraphase-intense-x-15-ml_imagen-1.jpg?v=637280166487200000",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA647",
+      "title": "Protector solar facial SPF50 toque seco 50ml",
+      "price": 29900,
+      "thumbnail": "https://www.farmacialeloir.com.ar/img/articulos/2023/02/avene_protector_solar_spf50_ultra_mat_fluido_imagen1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Juan" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Protector Solar" }
+      ]
+    },
+    {
+      "id": "MLA648",
+      "title": "Mascarilla facial hidratante de tela pack x10",
+      "price": 28900,
+      "thumbnail": "https://www.maicao.cl/on/demandware.static/-/Sites-masterCatalog_Chile/default/dw36aae52a/images/large/298511-mascarilla-facial-de-tela-acido-hialuronico-todo-tipo-de-piel-x1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Mascarillas" }
+      ]
+    },
+    {
+      "id": "MLA649",
+      "title": "Exfoliante facial suave 150ml",
+      "price": 19900,
+      "thumbnail": "https://tekielar.vtexassets.com/arquivos/ids/163877/8012875.jpg?v=637847031050300000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Exfoliantes" }
+      ]
+    },
+    {
+      "id": "MLA650",
+      "title": "Parches hidrogel para ojeras pack x30",
+      "price": 27900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/048/745/products/20240306_104211-215205e677d21e405d17097345334770-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA651",
+      "title": "Set manicure esmaltes semipermanentes x6",
+      "price": 45900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/106/266/products/cat-eye-x6-png-a8cfe0e603d8abc39e17464676102077-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Esmaltes" }
+      ]
+    },
+    {
+      "id": "MLA652",
+      "title": "Lampara UV LED para esmalte gel 48W",
+      "price": 79900,
+      "thumbnail": "https://static.bidcom.com.ar/publicacionesML/productos/MANI0051/1000x1000-MANI0051.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Accesorios" }
+      ]
+    },
+    {
+      "id": "MLA653",
+      "title": "Aceite cuticulas nutritivo 15ml",
+      "price": 9900,
+      "thumbnail": "https://www.adonianatur.com/media/catalog/product/s/a/sante-aceite-unas-_-cuticulas-adonianatur.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Cuidado" }
+      ]
+    },
+    {
+      "id": "MLA654",
+      "title": "Crema de manos reparadora 75ml",
+      "price": 12900,
+      "thumbnail": "https://statics.promofarma.com/static/promofarma/prod/product_images/z/P9Y83Z_es_ES_0.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Cuidado" }
+      ]
+    },
+    {
+      "id": "MLA655",
+      "title": "Set limas profesionales pack x10",
+      "price": 13900,
+      "thumbnail": "https://www.impresoras3d.com/wp-content/uploads/2022/01/Juego-de-Limas-Aguja-01.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Chubut" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Accesorios" }
+      ]
+    },
+    {
+      "id": "MLA656",
+      "title": "Shampoo hidratante sin sal 400ml",
+      "price": 15900,
+      "thumbnail": "https://simplicityar.vtexassets.com/arquivos/ids/175187-800-auto?v=638364430415570000&width=800&height=auto&aspect=true",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado del Cabello" },
+        { "name": "Shampoo" }
+      ]
+    },
+    {
+      "id": "MLA657",
+      "title": "Acondicionador reparador 400ml",
+      "price": 15900,
+      "thumbnail": "https://digitalfarma.vtexassets.com/arquivos/ids/546502/7791293047492-1.jpg.jpg?v=639014023705830000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado del Cabello" },
+        { "name": "Acondicionador" }
+      ]
+    },
+    {
+      "id": "MLA658",
+      "title": "Mascarilla capilar nutritiva 300g",
+      "price": 19900,
+      "thumbnail": "https://farmaciasdelpueblo.vtexassets.com/arquivos/ids/183207-800-800?v=638218239304470000&width=800&height=800&aspect=true",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado del Cabello" },
+        { "name": "Tratamientos" }
+      ]
+    },
+    {
+      "id": "MLA659",
+      "title": "Aceite capilar argan brillo y suavidad 50ml",
+      "price": 18900,
+      "thumbnail": "https://www.stockinlavanda.com.ar/35952-thickbox_default/serum-con-aceite-de-argan-x-50ml-primont-maroc-oil.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado del Cabello" },
+        { "name": "Tratamientos" }
+      ]
+    },
+    {
+      "id": "MLA660",
+      "title": "Protector termico capilar spray 150ml",
+      "price": 17900,
+      "thumbnail": "https://perfugroupar.vtexassets.com/arquivos/ids/192934-800-auto?v=638278971794800000&width=800&height=auto&aspect=true",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado del Cabello" },
+        { "name": "Styling" }
+      ]
+    },
+    {
+      "id": "MLA661",
+      "title": "Cepillo alisador electrico ionico",
+      "price": 89900,
+      "thumbnail": "https://images.precialo.com/products/cepillo-alisador-de-cabello-ionico-para-mujer-con-5-ajustes-de-temperatura-calentamiento-rapido-y/b4e39d90-92b1-4705-b4cc-84c45a72dbe7.jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Herramientas" },
+        { "name": "Cabello" }
+      ]
+    },
+    {
+      "id": "MLA662",
+      "title": "Plancha de pelo ceramica 230C",
+      "price": 109900,
+      "thumbnail": "https://comercialprieto.com/WebRoot/Store/Shops/ComercialPrieto/5F64/68EB/6CE0/BB82/6D25/0A6E/2802/1442/79252612_3706649167.jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Herramientas" },
+        { "name": "Cabello" }
+      ]
+    },
+    {
+      "id": "MLA663",
+      "title": "Secador de pelo profesional 2200W",
+      "price": 129900,
+      "thumbnail": "https://www.torca.com.ar/images/000000000006241977557diamond.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Herramientas" },
+        { "name": "Cabello" }
+      ]
+    },
+    {
+      "id": "MLA664",
+      "title": "Perfume mujer eau de parfum 100ml floral",
+      "price": 79900,
+      "thumbnail": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-ar-storefront-catalog/default/dweafa3507/PRODUTOS/NATARG-93618_1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Perfumeria" },
+        { "name": "Mujer" }
+      ]
+    },
+    {
+      "id": "MLA665",
+      "title": "Perfume hombre eau de toilette 100ml amaderado",
+      "price": 79900,
+      "thumbnail": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-ar-storefront-catalog/default/dw8bb7a067/PRODUTOS/NATARG-81950_1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Perfumeria" },
+        { "name": "Hombre" }
+      ]
+    },
+    {
+      "id": "MLA666",
+      "title": "Desodorante antitranspirante aerosol pack x6",
+      "price": 28900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/964/289/products/7791293049526-050650358116cc366917269276421306-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Juan" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Desodorantes" }
+      ]
+    },
+    {
+      "id": "MLA667",
+      "title": "Crema corporal hidratante 400ml",
+      "price": 18900,
+      "thumbnail": "https://www.farmaciassanchezantoniolli.com.ar/14243-medium_default/nivea-body-crema-hidratante-para-piel-extra-seca-x-400ml.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Cuerpo" }
+      ]
+    },
+    {
+      "id": "MLA668",
+      "title": "Jabon liquido antibacterial 1L",
+      "price": 14900,
+      "thumbnail": "https://induryza.com/wp-content/uploads/2025/04/JABON-LIQUIDO-MANZANA-1L.webp",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Higiene" }
+      ]
+    },
+    {
+      "id": "MLA669",
+      "title": "Kit afeitadora manual + repuestos x8",
+      "price": 27900,
+      "thumbnail": "https://simplicityar.vtexassets.com/arquivos/ids/157254/221260_repuestos-para-maquina-de-afeitar-gillette-mach-3-sensitive-x-8-un__imagen-1.jpg?v=638198475078330000",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Afeitado" }
+      ]
+    },
+    {
+      "id": "MLA670",
+      "title": "Crema de afeitar espuma 200ml pack x3",
+      "price": 19900,
+      "thumbnail": "https://www.maxidescuento.com.ar/34090-large_default/nivea-espuma-afeitsensx-200m-nvo-8715200817205.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Afeitado" }
+      ]
+    },
+    {
+      "id": "MLA671",
+      "title": "Depiladora electrica recargable cuerpo",
+      "price": 139900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/678/478/products/tiradaikon-734-9c18cfb9aef3cf56df16994567061447-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Herramientas" },
+        { "name": "Depilacion" }
+      ]
+    },
+    {
+      "id": "MLA672",
+      "title": "Cera depilatoria en perlas 1kg",
+      "price": 29900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/765/065/products/medidas-alfi-nova151-f49d0d884fe82791cd16953210644687-1024-1024-05a80e27872934bbd717525075113660-1024-1024.webp",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Depilacion" },
+        { "name": "Ceras" }
+      ]
+    },
+    {
+      "id": "MLA673",
+      "title": "Bandas depilatorias facial pack x40",
+      "price": 12900,
+      "thumbnail": "https://www.farmacialeloir.com.ar/img/articulos/2021/06/veet_bandas_depilatorias_faciales_piel_normal_imagen1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Luis" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Depilacion" },
+        { "name": "Bandas" }
+      ]
+    },
+    {
+      "id": "MLA674",
+      "title": "Kit skincare travel mini (limpieza + serum + crema)",
+      "price": 39900,
+      "thumbnail": "https://cosmeticosanamaria.com/wp-content/uploads/2024/08/109234_web.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Kits" }
+      ]
+    },
+    {
+      "id": "MLA675",
+      "title": "Balsamo desmaquillante en aceite 150ml",
+      "price": 25900,
+      "thumbnail": "https://statics.promofarma.com/static/promofarma/prod/product_images/z/7OY7HK_es_ES_0.jpeg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Limpieza" }
+      ]
+    },
+    {
+      "id": "MLA676",
+      "title": "Tonico facial equilibrante 200ml",
+      "price": 17900,
+      "thumbnail": "https://petitcocoa.com/wp-content/uploads/2025/04/Tonico-facial-equilibrante-EVERYDAY-VITALITY-200ml-Naay-Botanicals-1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Tonicos" }
+      ]
+    },
+    {
+      "id": "MLA677",
+      "title": "Crema manos y uas fortalecedora",
+      "price": 13900,
+      "thumbnail": "https://www.farmacialeloir.com.ar/img/articulos/2024/04/imagen1_oms_crema_de_manos_y_unas_reparadora_calendula_karite_imagen1.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Manos y Pies" },
+        { "name": "Cuidado" }
+      ]
+    },
+    {
+      "id": "MLA678",
+      "title": "Kit cuidado barba aceite + blsamo + peine",
+      "price": 35900,
+      "thumbnail": "https://spartanbalsamo.com/cdn/shop/products/KitCuidadoBarbaMercadoLibre_aceite_shampoo_peine.jpg?v=1672979934",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Tucuman" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Barba" }
+      ]
+    },
+    {
+      "id": "MLA679",
+      "title": "Peine y cepillo para barba de madera",
+      "price": 14900,
+      "thumbnail": "https://m.media-amazon.com/images/I/91m8gthW0RL._AC_UF1000,1000_QL80_.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Chaco" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Barba" }
+      ]
+    },
+    {
+      "id": "MLA680",
+      "title": "Gel de ducha energizante 500ml",
+      "price": 15900,
+      "thumbnail": "https://www.planetahuerto.es/cdn/shop/files/0db7b182be879b2cb86871618446cccf.jpg?v=1766054590",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Juan" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Higiene" }
+      ]
+    },
+    {
+      "id": "MLA681",
+      "title": "Pack cepillos de dientes x6",
+      "price": 12900,
+      "thumbnail": "https://d2eebw31vcx88p.cloudfront.net/selmadigital/uploads/7a3cc485db5a9d1c3cc09db12b6a99fc0162caa2.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Higiene Oral" },
+        { "name": "Cepillos" }
+      ]
+    },
+    {
+      "id": "MLA682",
+      "title": "Pasta dental blanqueadora pack x3",
+      "price": 16900,
+      "thumbnail": "https://d2eebw31vcx88p.cloudfront.net/selmadigital/uploads/c2572f46f9f145cb79f330feb85c0876005c90f3.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Higiene Oral" },
+        { "name": "Pastas Dentales" }
+      ]
+    },
+    {
+      "id": "MLA683",
+      "title": "Hilo dental menta pack x6",
+      "price": 13900,
+      "thumbnail": "https://www.farmatodo.com.ar/_next/image?url=https%3A%2F%2Fproducts-images.farmatodo.com.ar%2FKkZq5dG78B6BTb9GknVD9nRQSNlIltmKUUeQoLSoCaitaDUF8aKddNENRvLBakIa&w=3840&q=75",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Higiene Oral" },
+        { "name": "Hilo Dental" }
+      ]
+    },
+    {
+      "id": "MLA684",
+      "title": "Enjuague bucal 500ml pack x2",
+      "price": 15900,
+      "thumbnail": "https://www.supermaxi.com/wp-content/uploads/2024/08/7861042595175-1-11.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Higiene Oral" },
+        { "name": "Enjuagues" }
+      ]
+    },
+    {
+      "id": "MLA685",
+      "title": "Kit limpieza facial cepillo siliconado x2",
+      "price": 12900,
+      "thumbnail": "https://m.media-amazon.com/images/I/7110qwmfHAL._AC_UF1000,1000_QL80_.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Accesorios" }
+      ]
+    },
+    {
+      "id": "MLA686",
+      "title": "Pinza depilar cejas acero inoxidable",
+      "price": 9900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/081/392/products/inshot_20230917_1402518721-4c2f059ab57741e13616949702361783-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios" },
+        { "name": "Pinzas" }
+      ]
+    },
+    {
+      "id": "MLA687",
+      "title": "Pestanas postizas efecto natural pack x5",
+      "price": 17900,
+      "thumbnail": "https://kromaspace.com/wp-content/uploads/2024/01/kit-pestanas-x5-luis-torres.png",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Pestaas" }
+      ]
+    },
+    {
+      "id": "MLA688",
+      "title": "Pegamento para pestanas transparente",
+      "price": 10900,
+      "thumbnail": "https://zeva.com.ar/wp-content/uploads/2022/07/Duo-con-pincel.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Pestaas" }
+      ]
+    },
+    {
+      "id": "MLA689",
+      "title": "Set esponjas limpieza maquillaje reutilizables x10",
+      "price": 14900,
+      "thumbnail": "https://lasmargaritas.vtexassets.com/arquivos/ids/2471390-800-auto?v=638653006873170000&width=800&height=auto&aspect=true",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios" },
+        { "name": "Algodones" }
+      ]
+    },
+    {
+      "id": "MLA690",
+      "title": "Algodn discos desmaquillantes pack x200",
+      "price": 11900,
+      "thumbnail": "https://www.ciprianomayorista.com.ar/wp-content/uploads/2025/08/DISCO-DESMAQ-Q-SOFT-1-e1756399939310.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Misiones" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios" },
+        { "name": "Algodones" }
+      ]
+    },
+    {
+      "id": "MLA691",
+      "title": "Toallitas desmaquillantes pack x3",
+      "price": 13900,
+      "thumbnail": "https://d2eebw31vcx88p.cloudfront.net/selmadigital/uploads/2ca77b3f92c3e21c9bde7468cc58ac48f7a58390.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Limpieza" }
+      ]
+    },
+    {
+      "id": "MLA692",
+      "title": "Banda vincha maquillaje spa set x3",
+      "price": 12900,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/081/392/products/vincha-spa-cosmetologia-maquillaje-glowee-argentina-31-ed6a702dfc6e422b8c16070025261562-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios" },
+        { "name": "Hogar" }
+      ]
+    },
+    {
+      "id": "MLA693",
+      "title": "Organizador maquillaje acrilico 3 cajones",
+      "price": 49900,
+      "thumbnail": "https://tienda.ohmyshop.com.ar/wp-content/uploads/2025/12/046820-10.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Hogar y Muebles" },
+        { "name": "Organizacion" },
+        { "name": "Cosmeticos" }
+      ]
+    },
+    {
+      "id": "MLA694",
+      "title": "Espejo con luz LED para maquillaje",
+      "price": 69900,
+      "thumbnail": "https://picsum.photos/seed/MLA694/600/400",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Hogar y Muebles" },
+        { "name": "Decoracion" },
+        { "name": "Espejos" }
+      ]
+    },
+    {
+      "id": "MLA695",
+      "title": "Mini heladera cosmetica 6L para skincare",
+      "price": 189900,
+      "thumbnail": "https://images.bidcom.com.ar/resize?src=https://static.bidcom.com.ar/publicacionesML/productos/MINHELA1/1000x1000-MINHELA1-A.jpg&w=800&q=100",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Hogar y Electrodomesticos" },
+        { "name": "Climatizacion y Confort" },
+        { "name": "Mini Heladeras" }
+      ]
+    },
+    {
+      "id": "MLA696",
+      "title": "Kit brochas ojos precision pack x8",
+      "price": 24900,
+      "thumbnail": "https://getthelookar.vtexassets.com/arquivos/ids/181624/231415_brochas-para-ojos-get-the-look-pro-tools_imagen-2.jpg?v=638556384421700000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Accesorios de Maquillaje" },
+        { "name": "Brochas" }
+      ]
+    },
+    {
+      "id": "MLA697",
+      "title": "Delineador en gel waterproof con pincel",
+      "price": 19900,
+      "thumbnail": "https://bertoldi.com.ar/cdn/shop/products/77919212.png?v=1753815206",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "San Juan" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Ojos" }
+      ]
+    },
+    {
+      "id": "MLA698",
+      "title": "Set labiales liquidos matte x6 tonos nude",
+      "price": 34900,
+      "thumbnail": "https://www.pigmentta.com/wp-content/uploads/2023/02/Kit-Labiales-Lip-Addict-Nudes-X6-Trendy-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Maquillaje" },
+        { "name": "Labios" }
+      ]
+    },
+    {
+      "id": "MLA699",
+      "title": "Balsamo desinfectante manos gel alcohol 70% 500ml",
+      "price": 13900,
+      "thumbnail": "https://www.farmaciassanchezantoniolli.com.ar/4004-medium_default/bialcohol-70-gatillo-500ml-alc.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Chaco" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado Personal" },
+        { "name": "Higiene" }
+      ]
+    },
+    {
+      "id": "MLA700",
+      "title": "Kit cuidado facial anti acne (limpiador + serum + crema)",
+      "price": 59900,
+      "thumbnail": "https://farmacityar.vtexassets.com/arquivos/ids/262802-800-auto?v=638683174448500000&width=800&height=auto&aspect=true",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Belleza y Cuidado Personal" },
+        { "name": "Cuidado de la Piel" },
+        { "name": "Kits" }
       ]
     }
   ]
