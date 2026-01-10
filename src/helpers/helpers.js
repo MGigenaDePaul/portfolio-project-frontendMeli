@@ -4,29 +4,27 @@ export const normalize = (str = '') =>
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '') // saca tildes
 
-const vehicleKeywords = new Set([
+const tokenize = (q = '') => normalize(q).split(/\s+/).filter(Boolean)
+
+const carKeywords = new Set([
   'auto',
   'autos',
   'vehiculo',
   'vehiculos',
   'camioneta',
   'camionetas',
-  'moto',
-  'motos',
   'pickup',
   'pickups',
   'camion',
   'camiones',
 ])
 
-export const isVehicleIntent = (q) => {
-  // split simple por espacios
-  const tokens = q.split(/\s+/).filter(Boolean)
-  return tokens.some((t) => vehicleKeywords.has(t))
+export const isCarIntent = (q) => {
+  const tokens = tokenize(q)
+  return tokens.some((t) => carKeywords.has(t))
 }
 
-// Detecta autos reales por categoria exacta (la que vos pediste)
-export const isVehicleCategory = (product) => {
+export const isCarCategory = (product) => {
   const cats =
     product.category_path_from_root?.map((c) => normalize(c.name)) ?? []
   return (
@@ -49,10 +47,58 @@ export const buildSearchText = (product) => {
   return normalize(`${title} ${state} ${cats}`)
 }
 
-/*------------------------------ */
-const tokenize = (q = '') => normalize(q).split(/\s+/).filter(Boolean)
+// ----------------------- MOTOS ----------------------------------------
+const motoKeywords = new Set(['moto', 'motos'])
 
-// --- CAMERAS ---
+export const isMotoIntent = (q) => {
+  const tokens = tokenize(q)
+  return tokens.some((t) => motoKeywords.has(t))
+}
+
+export const isMotoCategory = (product) => {
+  const cats =
+    product.category_path_from_root?.map((c) => normalize(c.name)) ?? []
+
+  return cats.length >= 2 && cats[0] === 'vehiculos' && cats[1] === 'motos'
+}
+
+// --- MOTOS / MARCAS ---
+const motoBrands = new Set([
+  'honda',
+  'yamaha',
+  'kawasaki',
+  'suzuki',
+  'ducati',
+  'bmw',
+  'ktm',
+  'triumph',
+  'harley',
+  'harley-davidson',
+  'bajaj',
+  'rouser',
+  'benelli',
+  'zanella',
+  'gilera',
+  'motomel',
+  'corven',
+  'hero',
+  'royal',
+  'royal-enfield',
+])
+
+export const extractMotoBrand = (q) => {
+  const tokens = tokenize(q)
+
+  // normalizaciones típicas
+  if (tokens.includes('harley') && tokens.includes('davidson')) return 'harley'
+  if (tokens.includes('royal') && tokens.includes('enfield')) return 'royal'
+
+  return tokens.find((t) => motoBrands.has(t)) || null
+}
+
+/*------------------------------ */
+
+// ------------------------ CAMERAS ------------------------------------
 const cameraKeywords = new Set(['camara', 'camaras', 'camera', 'cameras'])
 const securityKeywords = new Set([
   'seguridad',
@@ -170,7 +216,7 @@ const genericWords = new Set([
 ])
 
 // Palabras que indican "intención" (no aportan a filtrar por producto concreto)
-const intentWords = new Set([...vehicleKeywords, ...cameraKeywords])
+const intentWords = new Set([...carKeywords, ...cameraKeywords])
 
 const meaningfulTokens = (q) =>
   tokenize(q).filter(
@@ -410,6 +456,8 @@ const phoneBrands = new Set([
   'oneplus',
   'realme',
   'oppo',
+  'poco',
+  'redmi',
 ])
 
 export const isPhoneIntent = (q) => {
@@ -419,8 +467,10 @@ export const isPhoneIntent = (q) => {
 
 export const extractPhoneBrand = (q) => {
   const tokens = tokenize(q)
-  // iPhone puede venir como "iphone" o "apple"
+
   if (tokens.includes('iphone') || tokens.includes('apple')) return 'iphone'
+  if (tokens.includes('redmi') || tokens.includes('poco')) return 'xiaomi'
+
   return tokens.find((t) => phoneBrands.has(t)) || null
 }
 
@@ -450,52 +500,148 @@ export const isPhoneProduct = (product) => {
   return true
 }
 
-// Extrae datos “iphone 15 pro max 256gb” de la query
-export const parseIphoneQuery = (q) => {
+// --- CELULARES: Parser genérico ---
+const phoneVariantWords = new Set([
+  'mini',
+  'pro',
+  'max',
+  'ultra',
+  'lite',
+  'plus',
+  'se',
+  'prime',
+  'neo',
+  't',
+  's',
+  '5g',
+])
+
+const brandAliases = new Map([
+  ['apple', 'iphone'],
+  ['iphone', 'iphone'],
+  ['huawei', 'huawei'],
+  ['xiaomi', 'xiaomi'],
+  ['redmi', 'xiaomi'],
+  ['poco', 'xiaomi'],
+  ['samsung', 'samsung'],
+  ['motorola', 'motorola'],
+  ['nokia', 'nokia'],
+  ['oneplus', 'oneplus'],
+  ['realme', 'realme'],
+  ['oppo', 'oppo'],
+])
+
+const xiaomiSeries = new Set(['redmi', 'note', 'mi', 'poco'])
+const huaweiSeries = new Set(['mate', 'nova', 'p'])
+
+const isNumberToken = (t) => /^\d{1,3}$/.test(t)
+const isGBToken = (t) => /^\d{1,4}gb$/.test(t)
+
+export const parsePhoneQuery = (q) => {
   const tokens = tokenize(q)
   const joined = tokens.join(' ')
 
-  // modelo: 13/14/15/16 etc (por si luego agregás más)
-  const modelMatch = joined.match(/\b(1[0-9])\b/)
-  const model = modelMatch ? modelMatch[1] : null
+  // marca
+  let brand = null
+  for (const t of tokens) {
+    if (brandAliases.has(t)) {
+      brand = brandAliases.get(t)
+      break
+    }
+  }
+
+  // series
+  const series = []
+  if (brand === 'xiaomi') {
+    for (const t of tokens) if (xiaomiSeries.has(t)) series.push(t)
+  } else if (brand === 'huawei') {
+    for (const t of tokens) if (huaweiSeries.has(t)) series.push(t)
+  }
+
+  // modelo numérico (14, 15, 13...)
+  let model = null
+  for (const t of tokens) {
+    if (isNumberToken(t)) {
+      model = t
+      break
+    }
+  }
+
+  // modelo alfanumérico (x6, p30, 13t...)
+  let alphaNumModel = null
+  for (const t of tokens) {
+    const m = t.match(/^([a-z]+)?(\d{1,3})([a-z])?$/)
+    if (m && !isNumberToken(t)) {
+      alphaNumModel = { raw: t, prefix: m[1], number: m[2], suffix: m[3] }
+      break
+    }
+  }
 
   // variantes
-  const hasMini = tokens.includes('mini')
-  const hasPro = tokens.includes('pro')
-  const hasMax = tokens.includes('max')
+  const variants = []
+  for (const t of tokens) if (phoneVariantWords.has(t)) variants.push(t)
 
-  // storage (opcional)
-  const storageMatch = joined.match(/\b(\d{2,4})gb\b/)
-  const storage = storageMatch ? storageMatch[1] : null
+  // storage/ram (simple)
+  let storage = null
+  let ram = null
 
-  return {
-    model, // "15"
-    variant: hasMini ? 'mini' : hasPro ? (hasMax ? 'pro max' : 'pro') : null,
-    storage, // "128" o "256"
+  // soporte "8gb/256gb"
+  const combo = joined.match(/\b(\d{1,2})gb\s*[/\-]\s*(\d{2,4})gb\b/)
+  if (combo) {
+    ram = combo[1]
+    storage = combo[2]
+  } else {
+    for (const t of tokens) {
+      if (isGBToken(t)) {
+        const n = parseInt(t.replace('gb', ''), 10)
+        if (n >= 32) storage = String(n)
+        else ram = String(n)
+      }
+    }
   }
+
+  return { brand, series, model, alphaNumModel, variants, storage, ram }
 }
 
-// true si el producto coincide con modelo/variante/storage pedidos
-export const matchesIphoneSpecs = (product, specs) => {
+export const matchesPhoneSpecs = (product, specs) => {
   const text = buildSearchText(product)
 
-  if (specs.model && !text.includes(`iphone ${specs.model}`)) return false
-
-  if (specs.variant) {
-    if (specs.variant === 'mini' && !text.includes('mini')) return false
-    if (
-      specs.variant === 'pro' &&
-      (!text.includes('pro') || text.includes('max'))
-    )
+  // marca
+  if (specs.brand) {
+    if (specs.brand === 'iphone') {
+      if (!text.includes('iphone')) return false
+    } else if (!text.includes(specs.brand)) {
       return false
-    if (
-      specs.variant === 'pro max' &&
-      !(text.includes('pro') && text.includes('max'))
-    )
-      return false
+    }
   }
 
+  // series
+  for (const s of specs.series) {
+    if (!text.includes(s)) return false
+  }
+
+  // modelo numérico
+  if (
+    specs.model &&
+    !text.includes(` ${specs.model}`) &&
+    !text.includes(specs.model)
+  )
+    return false
+
+  // modelo alfanumérico
+  if (specs.alphaNumModel) {
+    const { raw, number } = specs.alphaNumModel
+    if (!text.includes(raw) && !text.includes(number)) return false
+  }
+
+  // variantes (pro, 5g, max, etc.)
+  for (const v of specs.variants) {
+    if (!text.includes(v)) return false
+  }
+
+  // storage / ram
   if (specs.storage && !text.includes(`${specs.storage}gb`)) return false
+  if (specs.ram && !text.includes(`${specs.ram}gb`)) return false
 
   return true
 }
