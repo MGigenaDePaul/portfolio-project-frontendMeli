@@ -679,7 +679,7 @@
       "id": "MLA54",
       "title": "Apple iPhone 13 128GB Blanco",
       "price": 1249000,
-      "thumbnail": "https://mercatecno.com/wp-content/uploads/2024/11/Celulares-iPhone13128GB-Blanco-2-1.png",
+      "thumbnail": "https://compras.casasuiza.com.py/1563-large_default/iphone-13-128-gb-blanco.jpg",
       "shipping": { "free_shipping": false },
       "address": { "state_name": "Mendoza" },
       "category_path_from_root": [
@@ -1299,7 +1299,7 @@
     },
     {
       "id": "MLA102",
-      "title": "Tecnologia - Notebook Lenovo IdeaPad 15 8GB 256GB SSD",
+      "title": "Notebook Lenovo IdeaPad 15 8GB 256GB SSD",
       "price": 899000,
       "thumbnail": "https://images.fravega.com/f1000/f6256ea2b28257b1b7f37bcc129b5fb6.jpg",
       "shipping": { "free_shipping": true },
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "MLA103",
-      "title": "Tecnologia - Auriculares Bluetooth Inalambricos",
+      "title": "Auriculares Bluetooth Inalambricos",
       "price": 19900,
       "thumbnail": "https://int-co.com.ar/wp-content/uploads/2024/10/RDH-205-1_web.webp",
       "shipping": { "free_shipping": true },
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "MLA104",
-      "title": "Tecnologia - Smartwatch Deportivo Resistente al Agua",
+      "title": "Smartwatch Deportivo Resistente al Agua",
       "price": 35900,
       "thumbnail": "https://static.bidcom.com.ar/publicacionesML/productos/REL00213/1000x1000-REL00213-A.jpg",
       "shipping": { "free_shipping": false },
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "MLA105",
-      "title": "Tecnologia - Camara de Seguridad WiFi 1080p",
+      "title": "Camara de Seguridad WiFi 1080p",
       "price": 27900,
       "thumbnail": "https://arcencohogar.vtexassets.com/arquivos/ids/390359/1466471.jpg?v=638755830518400000",
       "shipping": { "free_shipping": true },
@@ -1348,7 +1348,7 @@
     },
     {
       "id": "MLA106",
-      "title": "Tecnologia - Router WiFi Doble Banda AC1200",
+      "title": "Router WiFi Doble Banda AC1200",
       "price": 54900,
       "thumbnail": "https://www.cudy.com/cdn/shop/files/WR300-A1_26e62c04-387b-4a02-a18b-b8aeecc6cab6.png?v=1715242342",
       "shipping": { "free_shipping": false },
@@ -1361,7 +1361,7 @@
     },
     {
       "id": "MLA107",
-      "title": "Tecnologia - Disco SSD 1TB NVMe",
+      "title": "Disco SSD 1TB NVMe",
       "price": 109000,
       "thumbnail": "https://smarttucuman.com/img/Public/1130/67256-producto-kingston-1tb-pcie-nvme.jpg",
       "shipping": { "free_shipping": true },
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "MLA108",
-      "title": "Tecnologia - Parlante Bluetooth Portatil",
+      "title": "Parlante Bluetooth Portatil",
       "price": 24900,
       "thumbnail": "https://deonce.com.ar/images/detailed/81/_DSC0969_urff-14.JPG",
       "shipping": { "free_shipping": false },
@@ -3400,7 +3400,7 @@
       "id": "MLA262",
       "title": "Cable USB C 2m Reforzado",
       "price": 9900,
-      "thumbnail": "https://picsum.photos/seed/MLA262/600/400",
+      "thumbnail": "https://media.adeo.com/media/3754727/media.jpeg",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Cordoba" },
       "category_path_from_root": [
@@ -3440,7 +3440,7 @@
       "id": "MLA265",
       "title": "Webcam Full HD 1080p",
       "price": 32900,
-      "thumbnail": "https://picsum.photos/seed/MLA265/600/400",
+      "thumbnail": "https://www.kelyx.com.ar/images/000000000041730228266webcam-kelyx-1.jpg",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Cordoba" },
       "category_path_from_root": [
@@ -3505,7 +3505,7 @@
       "id": "MLA270",
       "title": "Smart TV 50 4K",
       "price": 699000,
-      "thumbnail": "https://picsum.photos/seed/MLA270/600/400",
+      "thumbnail": "https://images.fravega.com/f1000/d7ca24bf5639a7db78c31aa9fa963be8.jpg",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Capital Federal" },
       "category_path_from_root": [
@@ -3519,7 +3519,7 @@
       "id": "MLA271",
       "title": "Consola de Videojuegos 1TB",
       "price": 1299000,
-      "thumbnail": "https://picsum.photos/seed/MLA271/600/400",
+      "thumbnail": "https://nextgames.com.ar/img/Public/1040-producto-steam-deck-1-1423.jpg",
       "shipping": { "free_shipping": false },
       "address": { "state_name": "Buenos Aires" },
       "category_path_from_root": [
@@ -4491,7 +4491,7 @@
       "id": "MLA345",
       "title": "Camisa Manga Corta Estampada",
       "price": 35900,
-      "thumbnail": "https://picsum.photos/seed/MLA345/600/400",
+      "thumbnail": "https://duxon.uy/cdn/shop/files/IMG-20231212-WA0014.jpg?v=1707239180",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Tucuman" },
       "category_path_from_root": [
@@ -4940,7 +4940,7 @@
       "id": "MLA379",
       "title": "Vestido Corto Denim",
       "price": 64900,
-      "thumbnail": "https://picsum.photos/seed/MLA379/600/400",
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/245/791/products/5d31d7d0-a2c5-4a85-a115-11c7223b07ab-188533c5bf0c9c4a7f17582609873233-1024-1024.webp",
       "shipping": { "free_shipping": false },
       "address": { "state_name": "Mendoza" },
       "category_path_from_root": [
@@ -4953,7 +4953,7 @@
       "id": "MLA380",
       "title": "Vestido Fiesta Rojo",
       "price": 89900,
-      "thumbnail": "https://picsum.photos/seed/MLA380/600/400",
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/509/469/products/axioma-post-4661-b79a343a9188cd114317336089127724-1024-1024.webp",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Tucuman" },
       "category_path_from_root": [
@@ -5019,7 +5019,7 @@
       "id": "MLA385",
       "title": "Pollera Short Deportiva",
       "price": 35900,
-      "thumbnail": "https://picsum.photos/seed/MLA385/600/400",
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/919/712/products/pollera-short-head-club-basic-skort-black-1-671a7f6de1d350a5d617551251495207-1024-1024.webp",
       "shipping": { "free_shipping": false },
       "address": { "state_name": "Tucuman" },
       "category_path_from_root": [
@@ -5033,7 +5033,7 @@
       "id": "MLA386",
       "title": "Boxer Algodon Pack 3",
       "price": 19900,
-      "thumbnail": "https://picsum.photos/seed/MLA386/600/400",
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/792/594/products/chatgpt-image-19-ago-2025-13_22_17-2afae890296d7c57e917556256355639-1024-1024.webp",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Buenos Aires" },
       "category_path_from_root": [
@@ -6870,9 +6870,9 @@
     },
     {
       "id": "MLA527",
-      "title": "https://image.made-in-china.com/2f0j00rjnlMtWzAyoI/17-Inch-Matt-Black-Machine-Face-Full-Painting-New-Design-Car-Alloy-Wheels-Wheel-5X114-3-Rims-for-Sale-1-Piece-Forged-Alloy-Wheel.webp",
+      "title": "Rueda de aluminio",
       "price": 389900,
-      "thumbnail": "https://picsum.photos/seed/MLA527/600/400",
+      "thumbnail": "https://image.made-in-china.com/2f0j00rjnlMtWzAyoI/17-Inch-Matt-Black-Machine-Face-Full-Painting-New-Design-Car-Alloy-Wheels-Wheel-5X114-3-Rims-for-Sale-1-Piece-Forged-Alloy-Wheel.webp",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Buenos Aires" },
       "category_path_from_root": [
@@ -9043,7 +9043,7 @@
       "id": "MLA694",
       "title": "Espejo con luz LED para maquillaje",
       "price": 69900,
-      "thumbnail": "https://picsum.photos/seed/MLA694/600/400",
+      "thumbnail": "https://www.soscomputacion.com.ar/10802-thickbox_default/espejo-redondo-luz-led-maquillaje-doble-plegable-my-foldaway.jpg",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Cordoba" },
       "category_path_from_root": [
@@ -9095,7 +9095,7 @@
       "id": "MLA698",
       "title": "Set labiales liquidos matte x6 tonos nude",
       "price": 34900,
-      "thumbnail": "https://www.pigmentta.com/wp-content/uploads/2023/02/Kit-Labiales-Lip-Addict-Nudes-X6-Trendy-1.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/I/71ntQy2-mYL._SL1500_.jpg",
       "shipping": { "free_shipping": true },
       "address": { "state_name": "Santa Fe" },
       "category_path_from_root": [
@@ -14109,6 +14109,1048 @@
         { "name": "Ropa y Accesorios" },
         { "name": "Ropa" },
         { "name": "Camisas" }
+      ]
+    },
+    {
+      "id": "MLA1061",
+      "title": "iPhone 12 64GB",
+      "price": 699000,
+      "thumbnail": "https://www.megatone.net/images//Articulos/zoom2x/209/MKT1244ETC-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1062",
+      "title": "iPhone 12 128GB",
+      "price": 749000,
+      "thumbnail": "https://www.megatone.net/images/Articulos/zoom2x/209/MKT1312ETC-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1063",
+      "title": "iPhone 12 mini 64GB",
+      "price": 629000,
+      "thumbnail": "https://www.tandilphone.com.ar/contenido/productos/original/1706732018.jpeg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1064",
+      "title": "iPhone 12 mini 128GB",
+      "price": 679000,
+      "thumbnail": "https://www.compumacypc.com.ar/wp-content/uploads/iphone12mini.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1065",
+      "title": "iPhone 12 Pro Max 128GB",
+      "price": 899000,
+      "thumbnail": "https://laplatacells.com.ar/img/Public/1169/98855-producto-3-11.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1066",
+      "title": "iPhone 12 Pro 256GB",
+      "price": 969000,
+      "thumbnail": "https://i5.walmartimages.com/seo/Open-Box-Apple-iPhone-12-Pro-AP-2341M-256GB-Gold-US-Model-Factory-Unlocked-Cell-Phone_2d458bd0-9317-460b-af7d-db97bc90c45f.fff1a62d78c15c7129fdb89d82f0ac74.jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1067",
+      "title": "iPhone 12 Pro Max 128GB",
+      "price": 999000,
+      "thumbnail": "https://images.fravega.com/f1000/bc44e5a1861d4a030e6cb82abc9c2211.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1068",
+      "title": "iPhone 13 128GB",
+      "price": 829000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2024/04/iPhone-13-128gb-Blue.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1069",
+      "title": "iPhone 13 256GB",
+      "price": 899000,
+      "thumbnail": "https://rongahogar.com.ar/storage/2024/07/00000722_1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1070",
+      "title": "iPhone 13 mini 128GB",
+      "price": 769000,
+      "thumbnail": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_cf5be65e_mirakl_image_1_large.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1071",
+      "title": "iPhone 13 Pro 128GB",
+      "price": 999000,
+      "thumbnail": "https://tienda.personal.com.ar/images/720/webp/Iphone_13_Pro_256_GB_Silver_e8506d2154.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1072",
+      "title": "iPhone 13 Pro 256GB",
+      "price": 1099000,
+      "thumbnail": "https://www.megatone.net/images/Articulos/zoom2x/209/01/MKT0238ETC_2.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1073",
+      "title": "iPhone 13 Pro Max 256GB",
+      "price": 1199000,
+      "thumbnail": "https://buy.gazelle.com/cdn/shop/files/iPhone_13_Pro_Max_-_Sierra_Blue_-_Overlap_Trans-cropped.jpg?v=1757019254",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1074",
+      "title": "iPhone 14 128GB",
+      "price": 949000,
+      "thumbnail": "https://dcdn-us.mitiendanube.com/stores/001/555/911/products/iphone-14-black-d61713d18bdf31d02417016951877100-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1075",
+      "title": "iPhone 14 Plus 128GB",
+      "price": 999000,
+      "thumbnail": "https://www.thekase.com/on/demandware.static/-/Sites-tk-product/default/dw9bb9b132/38995919/164394_large.png",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1076",
+      "title": "iPhone 14 Pro 128GB",
+      "price": 1199000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2022/10/iPhone-14-Pro-Argentina.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1077",
+      "title": "iPhone 14 Pro Max 256GB",
+      "price": 1399000,
+      "thumbnail": "https://www.radioshackla.com/media/catalog/product/4/6/462159300019_bwftl328ghylij7u.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700&format=jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquen" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1078",
+      "title": "iPhone 15 128GB",
+      "price": 1299000,
+      "thumbnail": "https://www.musicplanet.com.ar/web/image/product.image/1677/image_1024/iPhone%2015%20-%20128GB%20-%20Green%20?unique=add10d7",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Rios" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1079",
+      "title": "iPhone 15 Pro 256GB",
+      "price": 1599000,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/443/907/products/15promaxqw-5673c7228b1d4c7efb17245976970936-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1080",
+      "title": "iPhone 15 Pro Max 256GB",
+      "price": 1799000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2024/01/iPhone-15-Pro-Max-2-scaled.jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Cordoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Telefonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Apple" }
+      ]
+    },
+    {
+      "id": "MLA1081",
+      "title": "Samsung Galaxy S24 256GB",
+      "price": 1899000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-s721bzkmaro/gallery/ar-galaxy-s24-fe-s721-sm-s721bzkmaro-543972603?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1082",
+      "title": "Samsung Galaxy S24+ 256GB",
+      "price": 2199000,
+      "thumbnail": "https://www.megatone.net/images/Articulos/zoom2x/209/MKT0542MHM-1.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1083",
+      "title": "Samsung Galaxy S24 Ultra 512GB",
+      "price": 2999000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-s928blgvaro/gallery/ar-galaxy-s24-s928-508644-sm-s928blgvaro-541864326?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1084",
+      "title": "Samsung Galaxy Z Flip5 256GB",
+      "price": 2399000,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/005/990/736/products/9beaa6f1338747d785a307d9fdc949af-bc47d62cd81e0e71f017433740823165-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1085",
+      "title": "Samsung Galaxy Z Fold5 512GB",
+      "price": 3899000,
+      "thumbnail": "https://tienda.personal.com.ar/images/720/webp/Samsung_Galaxy_Z_Fold5_512_GB_Icy_Blue1_fe360a17a3.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1086",
+      "title": "Samsung Galaxy A55 5G 256GB",
+      "price": 899000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a556ezyparo/gallery/ar-galaxy-a55-5g-sm-a556-sm-a556ezyparo-544072596?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1087",
+      "title": "Samsung Galaxy A35 5G 128GB",
+      "price": 699000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a356ezkearo/gallery/ar-galaxy-a35-5g-sm-a356-sm-a356ezkearo-544072175?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1088",
+      "title": "Samsung Galaxy S23 FE 5G 256GB",
+      "price": 1199000,
+      "thumbnail": "https://stylewatch.vtexassets.com/arquivos/ids/241677/Smartphone_Samsung_SMS711BLGMARO_01.jpg?v=638350703288500000",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1089",
+      "title": "Samsung Galaxy S23 Ultra 512GB",
+      "price": 2599000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2023/11/S23-Ultra-cream.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1090",
+      "title": "Samsung Galaxy A54 5G 256GB",
+      "price": 799000,
+      "thumbnail": "https://samsungar.vtexassets.com/arquivos/ids/205847/Samsung-120127461-ar-galaxy-a54-5g-sm-a546-455651-sm-a546ezkfaro-536287468--Download-Source-.png?v=638815473988030000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+
+    {
+      "id": "MLA1091",
+      "title": "Motorola Edge 50 Pro 256GB",
+      "price": 1299000,
+      "thumbnail": "https://bioscomputacion.com.ar/img/Public/1161/23821-producto-motorola-edge-50-pro-morado.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1092",
+      "title": "Motorola Moto G84 5G 256GB",
+      "price": 599000,
+      "thumbnail": "https://loquiero.com.ar/wp-content/uploads/2024/07/G84-5G-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1093",
+      "title": "Motorola Moto G54 5G 128GB",
+      "price": 429000,
+      "thumbnail": "https://armoto.vtexassets.com/arquivos/ids/165276/2023_Cancun5G_Row_BASICPACK_Ambrosia_PDPHERO.png?v=638787043274630000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1094",
+      "title": "Motorola Razr 40 Ultra 512GB",
+      "price": 2399000,
+      "thumbnail": "https://images.fravega.com/f1000/6826ed07df24afd3333b70c008e0f7ba.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1095",
+      "title": "Huawei P60 Pro 256GB",
+      "price": 1799000,
+      "thumbnail": "https://www.huaweicentral.com/wp-content/uploads/2023/03/Huawei-P60-Pro-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Huawei" }
+      ]
+    },
+    {
+      "id": "MLA1096",
+      "title": "Huawei Nova 11 256GB",
+      "price": 799000,
+      "thumbnail": "https://cellucity.co.za/wp-content/uploads/2023/09/Huawei-nova-11-in-Black.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Huawei" }
+      ]
+    },
+    {
+      "id": "MLA1097",
+      "title": "Xiaomi 14 512GB",
+      "price": 1699000,
+      "thumbnail": "https://www.megatone.net/images/Articulos/zoom2x/209/MKT0184AFF-1.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1098",
+      "title": "Xiaomi Redmi Note 13 Pro 5G 256GB",
+      "price": 799000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2024/04/Redmi-Note-13-Pro-Plus.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1099",
+      "title": "Xiaomi Poco X6 Pro 5G 256GB",
+      "price": 749000,
+      "thumbnail": "https://www.necxus.com.ar/products_image/35843/1000x1000_1.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1100",
+      "title": "Google Pixel 8 Pro 256GB",
+      "price": 1899000,
+      "thumbnail": "https://m.media-amazon.com/images/I/71h9zq4viSL.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Google" }
+      ]
+    },
+    {
+      "id": "MLA1101",
+      "title": "OnePlus 12 256GB",
+      "price": 1799000,
+      "thumbnail": "https://image01.oneplus.net/media/202405/28/b96848b7acd10dafde32203d12f6fea7.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "OnePlus" }
+      ]
+    },
+    {
+      "id": "MLA1102",
+      "title": "Oppo Reno 11 Pro 256GB",
+      "price": 1099000,
+      "thumbnail": "https://f.fcdn.app/imgs/8e7f65/www.zonatecno.com.uy/zoteuy/ca00/original/catalogo/104848_104848_1/1500-1500/celular-oppo-reno-11-256gb-12gb-5g-verde-celular-oppo-reno-11-256gb-12gb-5g-verde.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Oppo" }
+      ]
+    },
+    {
+      "id": "MLA1103",
+      "title": "Realme GT 6 256GB",
+      "price": 999000,
+      "thumbnail": "https://tecno-center.minegocio-go.com/web/image/product.template/15189/image",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Realme" }
+      ]
+    },
+    {
+      "id": "MLA1104",
+      "title": "Honor Magic6 Pro 512GB",
+      "price": 2199000,
+      "thumbnail": "https://soytechno.com/wp-content/uploads/2024/11/Honor-Magic-6-Pro-12GB-512GB-BVL-N49-Epi-Green-3.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Honor" }
+      ]
+    },
+    {
+      "id": "MLA1105",
+      "title": "Sony Xperia 1 V 256GB",
+      "price": 2499000,
+      "thumbnail": "https://celularesindustriales.com.ar/wp-content/uploads/wp-image44347742322918.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Sony" }
+      ]
+    },
+    {
+      "id": "MLA1106",
+      "title": "Nokia X30 5G 128GB",
+      "price": 699000,
+      "thumbnail": "https://dakauf.eu/wp-content/uploads/2024/06/Nokia-X30-Dual-Sim-5G-6GB-RAM-128GB-Cloudy-Blue.png",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Nokia" }
+      ]
+    },
+    {
+      "id": "MLA1107",
+      "title": "Asus ROG Phone 8 256GB",
+      "price": 2299000,
+      "thumbnail": "https://d2e6ccujb3mkqf.cloudfront.net/3e9cacc6-a1d0-49a2-b377-45f508325b70-2_99cd2fc5-26e7-4330-b12f-cab2ae328286.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Asus" }
+      ]
+    },
+    {
+      "id": "MLA1108",
+      "title": "Vivo V30 256GB",
+      "price": 949000,
+      "thumbnail": "https://tiendadonde.com/cdn/shop/files/001_1732748638.jpg?v=1732748680&width=1024",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Vivo" }
+      ]
+    },
+    {
+      "id": "MLA1109",
+      "title": "ZTE Axon 50 Ultra 256GB",
+      "price": 1199000,
+      "thumbnail": "https://zte.cl/wp-content/uploads/2023/11/Axon-50-5G-2-1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "ZTE" }
+      ]
+    },
+    {
+      "id": "MLA1110",
+      "title": "TCL 50 Pro 5G 256GB",
+      "price": 749000,
+      "thumbnail": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/region/global/products/smartphones/tcl-50-nxtpaper-5g-pro/id-images/8.jpg?t=1721122048151&w=800",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "TCL" }
+      ]
+    },
+    {
+      "id": "MLA1111",
+      "title": "Samsung Galaxy S25 256GB",
+      "price": 2099000,
+      "thumbnail": "https://statics.qloud.ar/274/02-10-2025-04-10-03_SM-A366EZAFARO-2025-10-02T164923.476.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1112",
+      "title": "Samsung Galaxy S25+ 256GB",
+      "price": 2399000,
+      "thumbnail": "https://shop.samsung.com/latin/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-jl1578f2v1uvx1gplus_set-cut-all_002_2_3.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1113",
+      "title": "Samsung Galaxy S25 Ultra 512GB",
+      "price": 3299000,
+      "thumbnail": "https://bairesit.com.ar/Image/0/750_750-celular-samsung-galaxy-s25-1_1000x1000.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1114",
+      "title": "Samsung Galaxy Z Flip6 256GB",
+      "price": 2599000,
+      "thumbnail": "https://tiendadiggit.com.ar/web/image/product.template/258155/image_1024?unique=6d7b096",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1115",
+      "title": "Samsung Galaxy Z Fold6 512GB",
+      "price": 4199000,
+      "thumbnail": "https://static.wixstatic.com/media/354058_a4d2fe290ddc4a758b149f743bc0998f~mv2.png/v1/fill/w_600,h_600,al_c,q_85,enc_avif,quality_auto/354058_a4d2fe290ddc4a758b149f743bc0998f~mv2.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1116",
+      "title": "Samsung Galaxy A76 5G 256GB",
+      "price": 949000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a366ezkfaro/gallery/ar-galaxy-a36-5g-sm-a366-sm-a366ezkfaro-545676833?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1117",
+      "title": "Samsung Galaxy A66 5G 256GB",
+      "price": 849000,
+      "thumbnail": "https://mcprod.jumbo.ae/media/catalog/product/s/m/sm-a366_galaxy-a36-5g_awesome-lime_front.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1118",
+      "title": "Samsung Galaxy S24 FE 5G 256GB",
+      "price": 1299000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-s721blbmaro/gallery/ar-galaxy-s24-fe-s721-sm-s721blbmaro-543972545?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1119",
+      "title": "Samsung Galaxy S24 FE+ 256GB",
+      "price": 1499000,
+      "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-s721bzamaro/gallery/ar-galaxy-s24-fe-s721-sm-s721bzamaro-543972583?$Q90_1248_936_F_PNG$",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+    {
+      "id": "MLA1120",
+      "title": "Samsung Galaxy A80 5G 256GB",
+      "price": 779000,
+      "thumbnail": "https://i.blogs.es/0ff446/11_galaxya80_allcolors_combo1/1366_2000.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Samsung" }
+      ]
+    },
+
+    {
+      "id": "MLA1121",
+      "title": "Motorola Edge 60 Ultra 256GB",
+      "price": 1399000,
+      "thumbnail": "https://cdn01.laanonima.com.ar/web/images/fotos/b/0000119000/61326_1.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1122",
+      "title": "Motorola Moto G94 5G 256GB",
+      "price": 629000,
+      "thumbnail": "https://acdn-us.mitiendanube.com/stores/443/907/products/g344-b4594a3f84f2c2e8ed17253989342988-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1123",
+      "title": "Motorola Razr 50 512GB",
+      "price": 2699000,
+      "thumbnail": "https://tienda.claro.com.ar/staticContent/Claro/images/catalog/productos/646x1000/70012783_3.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Motorola" }
+      ]
+    },
+    {
+      "id": "MLA1124",
+      "title": "Huawei P70 Pro 512GB",
+      "price": 1999000,
+      "thumbnail": "https://cyberteamcr.com/wp-content/uploads/2024/07/w1500h1500fitpad-8.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Huawei" }
+      ]
+    },
+    {
+      "id": "MLA1125",
+      "title": "Huawei Nova 13 256GB",
+      "price": 899000,
+      "thumbnail": "https://bioscomputacion.com.ar/img/Public/1161/79900-producto-s-l1200-4.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Huawei" }
+      ]
+    },
+    {
+      "id": "MLA1126",
+      "title": "Xiaomi 15 512GB",
+      "price": 1799000,
+      "thumbnail": "https://omnitech.ar/wp-content/uploads/2025/06/mi15-ultra.jpg.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1127",
+      "title": "Xiaomi Redmi Note 14 Pro 5G 256GB",
+      "price": 829000,
+      "thumbnail": "https://www.cordobadigital.net/wp-content/uploads/2025/01/Note-14-pro-5g-verde.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1128",
+      "title": "Xiaomi Poco X7 Pro 5G 256GB",
+      "price": 779000,
+      "thumbnail": "https://carrefourar.vtexassets.com/arquivos/ids/670346/image-1845a56e9300471185cf528879e1d93e.jpg?v=638852409678830000",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Xiaomi" }
+      ]
+    },
+    {
+      "id": "MLA1129",
+      "title": "Google Pixel 9 Pro 256GB",
+      "price": 1999000,
+      "thumbnail": "https://dcdn-us.mitiendanube.com/stores/004/793/919/products/f9eed720-357378b01a92be761317443185513857-1024-1024.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Google" }
+      ]
+    },
+    {
+      "id": "MLA1130",
+      "title": "OnePlus 13 256GB",
+      "price": 1899000,
+      "thumbnail": "https://mgv.com.ar/wp-content/uploads/2025/08/OnePlus-13t-Pink.png",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "OnePlus" }
+      ]
+    },
+    {
+      "id": "MLA1131",
+      "title": "Oppo Find X7 Pro 256GB",
+      "price": 1299000,
+      "thumbnail": "https://fb-es.mrvcdn.com/kf/E3ff444af3f0c417fa4be086392e1bc42M.png",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Oppo" }
+      ]
+    },
+    {
+      "id": "MLA1132",
+      "title": "Realme GT 7 256GB",
+      "price": 1099000,
+      "thumbnail": "https://http2.mlstatic.com/D_Q_NP_714000-MLA96423996868_102025-O.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Realme" }
+      ]
+    },
+    {
+      "id": "MLA1133",
+      "title": "Honor Magic7 Pro 512GB",
+      "price": 2399000,
+      "thumbnail": "https://img02.honorfile.com/eu/es/honor/pms/product/6936520858750/group/800_800_90Percent_BA85B0348E7FD4AC60119E2CC523F43232837D79D04B30CFmp.webp",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Honor" }
+      ]
+    },
+    {
+      "id": "MLA1134",
+      "title": "Sony Xperia 2 V 256GB",
+      "price": 2599000,
+      "thumbnail": "https://img.yec.tw/zp/MerchandiseImages/2528CECABC-SP-14931351.jpg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Sony" }
+      ]
+    },
+    {
+      "id": "MLA1135",
+      "title": "Nokia X40 5G 128GB",
+      "price": 799000,
+      "thumbnail": "https://www.techspecs.info/_next/image/?url=https%3A%2F%2Fwww.techspecs.info%2Fuploads%2FNokia_X400_5_G_1b0ba6050f.png&w=3840&q=75",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Mendoza" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Nokia" }
+      ]
+    },
+    {
+      "id": "MLA1136",
+      "title": "Asus ROG Phone 9 256GB",
+      "price": 2499000,
+      "thumbnail": "https://dlcdnwebimgs.asus.com/gain/8D85BFE0-F7E5-406E-96D7-79D35CB96648",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Neuquén" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Asus" }
+      ]
+    },
+    {
+      "id": "MLA1137",
+      "title": "Vivo X100 Pro 256GB",
+      "price": 1599000,
+      "thumbnail": "https://tradingshenzhen.com/13789-large_default/vivo-x100-pro-12gb256gb.jpg",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Entre Ríos" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "Vivo" }
+      ]
+    },
+    {
+      "id": "MLA1138",
+      "title": "ZTE Nubia Z60 Ultra 256GB",
+      "price": 1199000,
+      "thumbnail": "https://i.blogs.es/fb8a8d/nubia-z60-ultra-pantalla/650_1200.jpeg",
+      "shipping": { "free_shipping": true },
+      "address": { "state_name": "Buenos Aires" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "ZTE" }
+      ]
+    },
+    {
+      "id": "MLA1139",
+      "title": "TCL 60 Ultra 5G 256GB",
+      "price": 899000,
+      "thumbnail": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/region/global/products/smartphones/tcl-nxtpaper-60-ultra/id-white-02/1.png?t=1765173061055&w=800",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Córdoba" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "TCL" }
+      ]
+    },
+    {
+      "id": "MLA1140",
+      "title": "BlackBerry KEY3 128GB",
+      "price": 699000,
+      "thumbnail": "https://preview.redd.it/the-demand-is-high-enouth-its-time-to-release-blackberry-v0-d4mg2ouqj3me1.png?auto=webp&s=1e2a8337ff18512777890967514ed0f1a58609ec",
+      "shipping": { "free_shipping": false },
+      "address": { "state_name": "Santa Fe" },
+      "category_path_from_root": [
+        { "name": "Celulares y Teléfonos" },
+        { "name": "Celulares y Smartphones" },
+        { "name": "BlackBerry" }
       ]
     }
   ]

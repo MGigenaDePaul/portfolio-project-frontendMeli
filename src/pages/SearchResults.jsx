@@ -15,6 +15,23 @@ import {
   extractCarBrand,
   matchesQuery,
   isCameraProduct,
+  isClothingIntent,
+  isClothingCategory,
+  getClothingSubcategory,
+  isClothingSubcategory,
+  isMeatIntent,
+  isMeatCategory,
+  getMeatSubcategory,
+  isMeatSubcategory,
+  isBikeIntent,
+  isBikeCategory,
+  getBikeSubcategory,
+  isBikeSubcategory,
+  isPhoneIntent,
+  isPhoneProduct,
+  extractPhoneBrand,
+  parseIphoneQuery,
+  matchesIphoneSpecs,
 } from '../helpers/helpers.js'
 
 const SearchResults = () => {
@@ -66,6 +83,66 @@ const SearchResults = () => {
 
       if (cameraMatches.length > 0) {
         filteredProducts = cameraMatches
+      }
+    }
+
+    /// C) INTENCIÓN: ROPA (por categoría real + subcategoría si aplica)
+    if (isClothingIntent(q)) {
+      const subcat = getClothingSubcategory(q) // ej: "pantalones"
+      const clothingMatches = all
+        .filter((p) => isClothingCategory(p))
+        .filter((p) => isClothingSubcategory(p, subcat))
+
+      if (clothingMatches.length > 0) {
+        filteredProducts = clothingMatches
+      }
+    }
+
+    // D) INTENCIÓN: CARNES (por categoría real + subcategoría si aplica)
+    if (isMeatIntent(q)) {
+      const subcat = getMeatSubcategory(q) // ej: "cordero"
+      const meatMatches = all
+        .filter((p) => isMeatCategory(p))
+        .filter((p) => isMeatSubcategory(p, subcat))
+
+      if (meatMatches.length > 0) {
+        filteredProducts = meatMatches
+      }
+    }
+
+    // E) INTENCIÓN: BICICLETAS (por categoría real)
+    if (isBikeIntent(q)) {
+      const subcat = getBikeSubcategory(q)
+
+      const bikeMatches = all
+        .filter((p) => isBikeCategory(p))
+        .filter((p) => isBikeSubcategory(p, subcat))
+
+      if (bikeMatches.length > 0) {
+        filteredProducts = bikeMatches
+      }
+    }
+
+    // F) INTENCIÓN: CELULARES / TECNOLOGÍA (phones)
+    if (isPhoneIntent(q)) {
+      const brand = extractPhoneBrand(q)
+
+      let phoneMatches = all.filter((p) => isPhoneProduct(p))
+
+      // si el user escribió marca/modelo, filtramos dentro
+      if (brand) {
+        phoneMatches = phoneMatches.filter((p) =>
+          buildSearchText(p).includes(brand),
+        )
+      }
+
+      if (brand === 'iphone') {
+        const specs = parseIphoneQuery(q)
+        phoneMatches = phoneMatches.filter((p) => matchesIphoneSpecs(p, specs))
+      }
+
+      if (phoneMatches.length > 0) {
+        filteredProducts = phoneMatches
       }
     }
   }
