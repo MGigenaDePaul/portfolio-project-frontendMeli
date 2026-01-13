@@ -1,3 +1,4 @@
+// scripts/makeProductDetail.js
 import fs from 'fs'
 import process from 'process'
 
@@ -12,10 +13,9 @@ if (!inputProducts) {
 }
 
 // ---------- helpers ----------
-const idNum = (id) => Number(String(id).replace('MLA', ''))
-const inRange = (p) => {
-  const n = idNum(p.id)
-  return n >= 0 && n <= 1530 // aca pongo el rango de productos nuevos por id que voy a copiar
+const idNum = (id) => {
+  const m = String(id).match(/\d+/)
+  return m ? Number(m[0]) : Number.POSITIVE_INFINITY
 }
 
 const normalize = (s = '') =>
@@ -31,11 +31,7 @@ const soldQty = (p) => {
   const t = normalize(p.title)
 
   if (cats.includes('vehiculos')) {
-    if (
-      t.includes('bugatti') ||
-      t.includes('pagani') ||
-      t.includes('koenigsegg')
-    )
+    if (t.includes('bugatti') || t.includes('pagani') || t.includes('koenigsegg'))
       return rand(0, 3)
     return rand(1, 40)
   }
@@ -57,43 +53,65 @@ const descriptionFor = (p) =>
 const rawProducts = JSON.parse(fs.readFileSync(inputProducts, 'utf-8'))
 const products = Array.isArray(rawProducts) ? rawProducts : rawProducts.results
 
+// IDs válidos (los que EXISTEN en products.json)
+const validIds = new Set(products.map((p) => p.id))
+
 // ---------- leer productDetail.json EXISTENTE ----------
 let existingRaw = { details: [] }
-
 if (fs.existsSync(outputDetail)) {
   existingRaw = JSON.parse(fs.readFileSync(outputDetail, 'utf-8'))
 }
-
 const existing = Array.isArray(existingRaw?.details) ? existingRaw.details : []
 
 // indexar por id
 const map = new Map(existing.map((p) => [p.id, p]))
 
-// ---------- generar SOLO 421–620 ----------
-products.filter(inRange).forEach((p) => {
-  map.set(p.id, {
-    id: p.id,
-    title: p.title,
-    price: p.price,
-    condition: 'new',
-    sold_quantity: soldQty(p),
-    fullImage: p.thumbnail,
-    description: descriptionFor(p),
-    category_path_from_root: p.category_path_from_root,
-  })
-})
+let added = 0
+let updatedImages = 0
+let removed = 0
 
-// ---------- guardar MERGE ----------
-const merged = Array.from(map.values()).sort(
-  (a, b) => idNum(a.id) - idNum(b.id),
-)
+// ---------- 1) eliminar IDs que ya no existen ----------
+for (const d of existing) {
+  if (!validIds.has(d.id)) {
+    map.delete(d.id)
+    removed++
+  }
+}
 
-fs.writeFileSync(
-  outputDetail,
-  JSON.stringify({ details: merged }, null, 2),
-  'utf-8',
-)
+// ---------- 2) merge por ID (no importa el orden del array) ----------
+for (const p of products) {
+  const prev = map.get(p.id)
+
+  if (prev) {
+    // ✅ solo cambiar thumbnails => fullImage
+    prev.fullImage = p.thumbnail ?? prev.fullImage
+    updatedImages++
+    // (Opcional) si querés mantener sincronizado title/price/cats, descomentá:
+    // prev.title = p.title ?? prev.title
+    // prev.price = p.price ?? prev.price
+    // prev.category_path_from_root = p.category_path_from_root ?? prev.category_path_from_root
+    map.set(p.id, prev)
+  } else {
+    // ✅ crear nuevo
+    map.set(p.id, {
+      id: p.id,
+      title: p.title,
+      price: p.price,
+      condition: 'new',
+      sold_quantity: soldQty(p),
+      fullImage: p.thumbnail,
+      description: descriptionFor(p),
+      category_path_from_root: p.category_path_from_root,
+    })
+    added++
+  }
+}
+
+// ---------- guardar ----------
+const merged = Array.from(map.values()).sort((a, b) => idNum(a.id) - idNum(b.id))
+
+fs.writeFileSync(outputDetail, JSON.stringify({ details: merged }, null, 2), 'utf-8')
 
 console.log(
-  `OK: productDetail.json actualizado (total ${merged.length} productos)`,
+  `OK: productDetail.json actualizado | total=${merged.length} | added=${added} | updatedImages=${updatedImages} | removed=${removed}`,
 )
