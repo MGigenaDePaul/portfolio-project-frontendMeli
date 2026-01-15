@@ -47,21 +47,58 @@ npm run dev
 http://localhost:5173
 ```
 
-COMMAND THAT SAVES A LOT OF TIME when you add more products to products.json and want to copy the same products to productDetail.json
+### Keep productDetail.json in sync with products.json
+
+Use this command whenever you add, remove, or update products in products.json and want to keep
+productDetail.json perfectly synchronized — NO MANUAL WORK.
+
+Execute this command when you are positioned in the root folder meli-frontend-test
 
 ```bash
 node scripts/makeProductDetail.js src/data/products.json src/data/productDetail.json
 ```
 
-What this command does:
-Reads all products from products.json
-Reads existing product details from productDetail.json (details array)
-Adds missing products to productDetail.json
-Keeps existing products untouched (descriptions, images, sold_quantity, etc.)
-Updates products only if they don’t exist yet
-Sorts all products by ID (e.g. MLA1 → MLA620)
-Saves the result without deleting any existing data
-Safe to run multiple times (idempotent).
+What this command does
+
+📦 Reads all products from products.json
+
+📖 Reads existing product details from productDetail.json
+
+➕ Adds new products when their ID exists in products.json but not in productDetail.json
+
+🖼️ Updates images (thumbnail → fullImage) and categories for existing products
+(keeps description, sold_quantity, condition, etc. untouched)
+
+❌ Removes products from productDetail.json if their ID no longer exists in products.json
+
+🆔 Uses IDs as unique identifiers (product order does not matter)
+
+🔢 Sorts products by numeric ID (MLA2 → MLA10 → MLA620)
+
+💾 Writes a clean, merged result back to productDetail.json
+
+🔁 Safe to run multiple times (idempotent)
+
+### Sort products by full category
+
+Execute these commands when you are positioned in the root folder meli-frontend-test
+
+```bash
+node scripts/sortByCategory.js src/data/products.json
+node scripts/sortByCategory.js src/data/productDetail.json
+```
+
+What it does
+
+🧩 Groups products by the full category_path_from_root
+
+📚 Keeps all identical categories together
+
+🔢 Sorts products by numeric ID inside each category
+
+📄 Works with both products.json (results) and productDetail.json (details)
+
+🔁 Safe to run multiple times (idempotent)
 
 ### ARCHIVO helpers.js esta organizado de la siguiente manera
 
