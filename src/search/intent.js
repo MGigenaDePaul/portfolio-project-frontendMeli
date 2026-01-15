@@ -3,6 +3,7 @@ import { KEYWORDS_TO_CATEGORY } from './categoryRegistry'
 import { isPhoneQuery, parsePhoneQuery } from './phone'
 import { parseVehicleQuery } from './vehicle'
 import { parseHomeQuery } from './home'
+import { isNotebookIntent, isPcIntent, parseComputerQuery } from './computer'
 
 const securityKeywords = new Set([
   'seguridad',
@@ -72,11 +73,23 @@ const truckModels = new Set([
   'ram',
 ])
 
+const headphoneKeywords = new Set([
+  'auricular',
+  'auris',
+  'auriculares',
+  'headphone',
+  'headphones',
+  'in ear',
+  'inear',
+  'over ear',
+  'supraaural',
+])
+
 
 export const detectIntent = (q) => {
   const tokens = tokenize(q)
 
-  // 1) phones (fuerte, con specs)
+  // phones 
   if (isPhoneQuery(q)) {
     return {
       type: 'phone',
@@ -86,7 +99,7 @@ export const detectIntent = (q) => {
     }
   }
 
-  // 2) cameras (seguridad vs normal)
+  // cameras (seguridad vs normal)
   const isCameraWord = tokens.some((t) => cameraKeywords.has(t))
   const wantsSecurity = tokens.some((t) => securityKeywords.has(t))
 
@@ -100,16 +113,34 @@ export const detectIntent = (q) => {
     }
   }
 
-  // 3) VEHICULOS (autos / motos / camionetas)
+    // COMPUTERS (lo pongo antes porque cuando pongo ram se ponene camionetas)
+  if (isNotebookIntent(q)) {
+    return {
+      type: 'notebook',
+      categoryHint: ['tecnologia', 'notebooks'],
+      computerSpecs: null, // por ahora
+    }
+  }
+
+  // AURICULARES
+  if (tokens.some((t) => headphoneKeywords.has(t))) {
+    return {
+      type: 'headphone',
+      categoryHint: ['tecnologia', 'auriculares'],
+    }
+  }
+
+
+
+  // VEHICULOS (autos / motos / camionetas)
   const isMotoWord = tokens.includes('moto') || tokens.includes('motos')
   const isAutoWord = tokens.includes('auto') || tokens.includes('autos')
   const isTruckWord =
-  tokens.includes('camioneta') ||
-  tokens.includes('camionetas') ||
-  tokens.includes('pickup') ||
-  tokens.includes('pickups') ||
-  tokens.some((t) => truckModels.has(t))
-
+    tokens.includes('camioneta') ||
+    tokens.includes('camionetas') ||
+    tokens.includes('pickup') ||
+    tokens.includes('pickups') ||
+    tokens.some((t) => truckModels.has(t))
 
   const motoBrand = extractBrand(tokens, motoBrands)
   const carBrand = extractBrand(tokens, carBrands, { vwAlias: true })
@@ -121,7 +152,7 @@ export const detectIntent = (q) => {
       type: 'moto',
       categoryHint: ['vehiculos', 'motos'],
       brand: motoBrand,
-      vehicleFilters
+      vehicleFilters,
     }
   }
 
@@ -130,7 +161,7 @@ export const detectIntent = (q) => {
       type: 'truck',
       categoryHint: ['vehiculos', 'camionetas'],
       brand: carBrand, // sirve para Hilux, Ranger, Amarok, etc.
-      vehicleFilters
+      vehicleFilters,
     }
   }
 
@@ -139,18 +170,23 @@ export const detectIntent = (q) => {
       type: 'car',
       categoryHint: ['vehiculos', 'autos'],
       brand: carBrand,
-      vehicleFilters
+      vehicleFilters,
     }
   }
+// ------------------------
 
-  // 4) bolsa + boxeo (AND) --> bolsas de boxeo
+  // bolsa + boxeo (AND) --> bolsas de boxeo
   const hasBolsa = tokens.includes('bolsa') || tokens.includes('bolsas')
   const hasBoxeo = tokens.includes('boxeo') || tokens.includes('box')
 
   if (hasBolsa && hasBoxeo) {
     return {
       type: 'category',
-      categoryHint: ['deportes y fitness','boxeo y artes marciales','bolsas de boxeo'],
+      categoryHint: [
+        'deportes y fitness',
+        'boxeo y artes marciales',
+        'bolsas de boxeo',
+      ],
     }
   }
 
@@ -158,8 +194,7 @@ export const detectIntent = (q) => {
   const homeIntent = parseHomeQuery(q)
   if (homeIntent) return homeIntent
 
-  
-  // 5) registry (ropa, carnes, herramientas, etc.)
+  // 6) registry (ropa, carnes, herramientas, etc.)
   for (const rule of KEYWORDS_TO_CATEGORY) {
     if (tokens.some((t) => rule.keywords.includes(t))) {
       return { type: 'category', categoryHint: rule.path }

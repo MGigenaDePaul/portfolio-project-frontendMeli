@@ -2,7 +2,7 @@
 export const normalize = (str = '') =>
   String(str)
     .toLowerCase()
-    .normalize('NFD') 
+    .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
 
 // tokenize → convierte un texto en palabras limpias

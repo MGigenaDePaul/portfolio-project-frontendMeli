@@ -49,7 +49,9 @@ export const parseVehicleQuery = (q) => {
 
   // transmisión
   const transmission =
-    tokens.includes('automatico') || tokens.includes('automatica') || tokens.includes('at')
+    tokens.includes('automatico') ||
+    tokens.includes('automatica') ||
+    tokens.includes('at')
       ? 'auto'
       : tokens.includes('manual')
         ? 'manual'
@@ -90,14 +92,23 @@ export const matchesVehicleFilters = (product, filters) => {
 
   if (filters.condition === 'new') {
     // buscá señales típicas
-    if (!(t.includes('0km') || t.includes('0 km') || t.includes('cero km') || t.includes('nuevo'))) return false
+    if (
+      !(
+        t.includes('0km') ||
+        t.includes('0 km') ||
+        t.includes('cero km') ||
+        t.includes('nuevo')
+      )
+    )
+      return false
   }
   if (filters.condition === 'used') {
     if (!(t.includes('usado') || t.includes('usados'))) return false
   }
 
   if (filters.traction === '4x4') {
-    if (!(t.includes('4x4') || t.includes('4wd') || t.includes('awd'))) return false
+    if (!(t.includes('4x4') || t.includes('4wd') || t.includes('awd')))
+      return false
   }
   if (filters.traction === '4x2') {
     if (!(t.includes('4x2') || t.includes('2wd'))) return false
@@ -111,7 +122,14 @@ export const matchesVehicleFilters = (product, filters) => {
   }
 
   if (filters.transmission === 'auto') {
-    if (!(t.includes('automatico') || t.includes('automatica') || t.includes('at'))) return false
+    if (
+      !(
+        t.includes('automatico') ||
+        t.includes('automatica') ||
+        t.includes('at')
+      )
+    )
+      return false
   }
   if (filters.transmission === 'manual') {
     if (!t.includes('manual')) return false
@@ -141,9 +159,17 @@ export const vehicleDropTokens = (q) => {
     if (isYear(t)) drop.add(t)
     if (t === '0km') drop.add(t)
     if (t === 'usado' || t === 'usados') drop.add(t)
-    if (t === '4x4' || t === '4x2' || t === '4wd' || t === 'awd' || t === '2wd') drop.add(t)
-    if (t === 'diesel' || t === 'gasoil' || t === 'nafta' || t === 'gasolina') drop.add(t)
-    if (t === 'manual' || t === 'automatico' || t === 'automatica' || t === 'at') drop.add(t)
+    if (t === '4x4' || t === '4x2' || t === '4wd' || t === 'awd' || t === '2wd')
+      drop.add(t)
+    if (t === 'diesel' || t === 'gasoil' || t === 'nafta' || t === 'gasolina')
+      drop.add(t)
+    if (
+      t === 'manual' ||
+      t === 'automatico' ||
+      t === 'automatica' ||
+      t === 'at'
+    )
+      drop.add(t)
     if (t === 'full' || t === 'premium' || t === 'base') drop.add(t)
     if (isCC(t)) drop.add(t)
   }

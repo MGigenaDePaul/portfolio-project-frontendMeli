@@ -5,7 +5,10 @@ import { matchesQueryText, buildSearchText } from './text'
 import { isPhoneProduct, matchesPhoneSpecs } from './phone'
 import { rankResults } from './rank'
 import { matchesVehicleFilters, vehicleDropTokens } from './vehicle'
-
+import { isNotebookProduct } from './notebook'
+import { isPcProduct } from './pc'
+import { isHeadphoneProduct } from './auriculares'
+import { matchesComputerSpecs } from './computerMatch'
 
 export function searchProducts(all, rawQuery, { limit = 4 } = {}) {
   const q = normalize(rawQuery || '')
@@ -24,6 +27,31 @@ export function searchProducts(all, rawQuery, { limit = 4 } = {}) {
     pool = pool.filter((p) => matchesPhoneSpecs(p, intent.phoneSpecs))
   }
 
+  // COMPUTERS (notebook / pc)
+  if (intent.type === 'notebook') {
+    pool = pool.filter((p) => isNotebookProduct(p))
+
+    // specs suave: si deja 0, no rompemos
+    const filtered = pool.filter((p) =>
+      matchesComputerSpecs(p, intent.computerSpecs),
+    )
+    if (filtered.length > 0) pool = filtered
+  }
+
+  if (intent.type === 'pc') {
+    pool = pool.filter((p) => isPcProduct(p))
+
+    const filtered = pool.filter((p) =>
+      matchesComputerSpecs(p, intent.computerSpecs),
+    )
+    if (filtered.length > 0) pool = filtered
+  }
+
+  if (intent.type === 'headphone') {
+    pool = pool.filter((p) => isHeadphoneProduct(p))
+  }
+ 
+
   if (intent.type === 'camera') {
     // fallback por texto para evitar colados raros (por si hay alguno mal categorizado)
     pool = pool.filter((p) => {
@@ -38,22 +66,27 @@ export function searchProducts(all, rawQuery, { limit = 4 } = {}) {
   }
 
   // 3) brand (incluye truck también)
-  if ((intent.type === 'car' || intent.type === 'moto' || intent.type === 'truck') && intent.brand) {
+  if (
+    (intent.type === 'car' ||
+      intent.type === 'moto' ||
+      intent.type === 'truck') &&
+    intent.brand
+  ) {
     pool = pool.filter((p) => buildSearchText(p).includes(intent.brand))
   }
 
- // 3.5) vehicle filters (suave): si filtrar deja 0, no rompemos
-if (
-  (intent.type === 'car' || intent.type === 'moto' || intent.type === 'truck') &&
-  intent.vehicleFilters
-) {
-  const filtered = pool.filter((p) =>
-    matchesVehicleFilters(p, intent.vehicleFilters),
-  )
-  if (filtered.length > 0) pool = filtered
-}
-    
-
+  // 3.5) vehicle filters (suave): si filtrar deja 0, no rompemos
+  if (
+    (intent.type === 'car' ||
+      intent.type === 'moto' ||
+      intent.type === 'truck') &&
+    intent.vehicleFilters
+  ) {
+    const filtered = pool.filter((p) =>
+      matchesVehicleFilters(p, intent.vehicleFilters),
+    )
+    if (filtered.length > 0) pool = filtered
+  }
 
   // 4) tokens a ignorar para el match de texto (palabras de intención)
   const drop = []
@@ -66,9 +99,13 @@ if (
     drop.push('camioneta', 'camionetas', 'pickup', 'pickups')
   }
 
-  if (intent.type === 'car' || intent.type === 'moto' || intent.type === 'truck') {
-  drop.push(...vehicleDropTokens(q))
-}
+  if (
+    intent.type === 'car' ||
+    intent.type === 'moto' ||
+    intent.type === 'truck'
+  ) {
+    drop.push(...vehicleDropTokens(q))
+  }
 
   if (intent.type === 'camera') {
     drop.push(
@@ -79,11 +116,22 @@ if (
       'seguridad',
       'security',
       'cctv',
-      'vigilancia'
+      'vigilancia',
     )
   }
 
-
+   if (intent.type === 'headphone') {
+  drop.push(
+    'auricular',
+    'auriculares',
+    'headphone',
+    'headphones',
+    'inear',
+    'in',
+    'ear',
+    'over',
+  )
+}
 
   // 5) match texto general
   let items = q ? pool.filter((p) => matchesQueryText(p, q, { drop })) : pool
@@ -98,11 +146,11 @@ if (
   items = rankResults(items, { q, intent })
 
   // 8) breadcrumb
-  const breadcrumb = items[0]?.category_path_from_root?.map((c) => c.name) ?? null
+  const breadcrumb =
+    items[0]?.category_path_from_root?.map((c) => c.name) ?? null
 
   return { items: items.slice(0, limit), breadcrumb, intent }
 }
-
 
 /*
 Este es el archivo central: agarra todos los productos + lo que escribió el usuario y devuelve:

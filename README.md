@@ -80,7 +80,9 @@ What this command does
 🔁 Safe to run multiple times (idempotent)
 
 ### Sort products by full category
+
 Execute these commands when you are positioned in the root folder meli-frontend-test
+
 ```bash
 node scripts/sortByCategory.js src/data/products.json
 node scripts/sortByCategory.js src/data/productDetail.json

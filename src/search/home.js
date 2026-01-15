@@ -2,31 +2,55 @@
 import { tokenize } from './normalize'
 
 const PET_WORDS = new Set([
-  'perro','perros','gato','gatos','mascota','mascotas','cucha','cuchita',
+  'perro',
+  'perros',
+  'gato',
+  'gatos',
+  'mascota',
+  'mascotas',
+  'cucha',
+  'cuchita',
 ])
 
 const BED_WORDS = new Set([
-  'cama','camas','colchon','colchones','sommier','somier',
+  'cama',
+  'camas',
+  'colchon',
+  'colchones',
+  'sommier',
+  'somier',
 ])
 
 const LIVING_WORDS = new Set([
-  'sillon','sillones','sofa','sofá','couch','living',
+  'sillon',
+  'sillones',
+  'sofa',
+  'sofá',
+  'couch',
+  'living',
 ])
 
 const INSUMOS_WORDS = new Set([
-  'consorcio','basura','residuo','residuos', 'consorciales', 'consorcial'
+  'consorcio',
+  'basura',
+  'residuo',
+  'residuos',
+  'consorciales',
+  'consorcial',
 ])
 
 const CLEAN_WORDS = new Set([
-  'lavandina','detergente','desinfectante','limpieza','escoba','trapo',
+  'lavandina',
+  'detergente',
+  'desinfectante',
+  'limpieza',
+  'escoba',
+  'trapo',
 ])
-    
-const PARRILLA_WORDS = new Set([
-  'parrilla','parrillas','asador','brasero',
-])
+
+const PARRILLA_WORDS = new Set(['parrilla', 'parrillas', 'asador', 'brasero'])
 
 const BOXEO_WORDS = new Set(['boxeo', 'box'])
-
 
 export const parseHomeQuery = (q) => {
   const tokens = tokenize(q)
@@ -43,27 +67,30 @@ export const parseHomeQuery = (q) => {
 
   // PRIORIDAD: mascotas gana sobre cama/colchón
   if (hasPet) {
-    return { type: 'home', categoryHint: ['hogar','mascotas'] }
+    return { type: 'home', categoryHint: ['hogar', 'mascotas'] }
   }
 
   if (hasBed) {
-    return { type: 'home', categoryHint: ['hogar','dormitorio','camas y colchones'] }
+    return {
+      type: 'home',
+      categoryHint: ['hogar', 'dormitorio', 'camas y colchones'],
+    }
   }
 
   if (hasParrilla) {
-    return { type: 'home', categoryHint: ['hogar','parrillas'] }
+    return { type: 'home', categoryHint: ['hogar', 'parrillas'] }
   }
 
   if (hasLiving) {
-    return { type: 'home', categoryHint: ['hogar','living'] }
+    return { type: 'home', categoryHint: ['hogar', 'living'] }
   }
 
   if (hasClean) {
-    return { type: 'home', categoryHint: ['hogar','limpieza'] }
+    return { type: 'home', categoryHint: ['hogar', 'limpieza'] }
   }
 
   if (hasInsumos) {
-    return { type: 'home', categoryHint: ['hogar','insumos'] }
+    return { type: 'home', categoryHint: ['hogar', 'insumos'] }
   }
 
   return null

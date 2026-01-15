@@ -5,7 +5,7 @@ export const matchesPathPrefix = (product, prefix = []) => {
   const cats = getCategoryPath(product)
   const p = prefix.map(normalize)
 
-  if (!p.length) return true 
+  if (!p.length) return true
   if (cats.length < p.length) return false // si el producto tiene menos niveles no puede coincidir
 
   for (let i = 0; i < p.length; i++) {

@@ -77,7 +77,13 @@ export const KEYWORDS_TO_CATEGORY = [
     path: ['tecnologia', 'celulares'],
   },
   {
-    keywords: ['auricular', 'auriculares', 'headphones', 'buds', 'auris', 'auri'],
+    keywords: [
+      'auricular',
+      'auriculares',
+      'headphones',
+      'buds',
+      'auris',
+    ],
     path: ['tecnologia', 'auriculares'],
   },
   {

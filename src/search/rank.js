@@ -10,7 +10,7 @@ export const rankResults = (items, { q, intent }) => {
     let s = 0
 
     // Coincidencia exacta del texto (+50)
-    if (nq && text.includes(nq)) s += 50 
+    if (nq && text.includes(nq)) s += 50
 
     // Coincide con la categoría del intent (+40)
     if (intent?.categoryHint?.length) {
@@ -30,7 +30,6 @@ export const rankResults = (items, { q, intent }) => {
   // Productos con más puntos primero
   return [...items].sort((a, b) => score(b) - score(a))
 }
-
 
 /*
 🎯 Para que sirve rank.js?

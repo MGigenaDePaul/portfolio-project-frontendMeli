@@ -31,7 +31,6 @@ export const isPhoneQuery = (q) => {
   return tokens.some((t) => phoneWords.has(t) || brands.has(t))
 }
 
-
 export const isPhoneProduct = (product) => {
   // primero por categoría (fuerte)
   if (matchesPathPrefix(product, ['tecnologia', 'celulares'])) return true

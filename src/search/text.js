@@ -19,6 +19,7 @@ const stopwords = new Set([
   'en',
   'por',
   'a',
+  'marca',
 ])
 
 export const getCategoryPath = (product) =>
