@@ -14,7 +14,12 @@ import { isSpeakerProduct, matchesSpeakerSpecs } from './parlante'
 import { isBeautyProduct, matchesBeautySpecs } from './beauty'
 import { isHeladeraProduct, matchesHeladeraSpecs } from './heladera'
 import { isLavarropaProduct, matchesLavarropaSpecs } from './lavarropa'
-import { isRemeraProduct, matchesRemeraSpecs, remeraDropTokens, extractGender } from './remera'
+import {
+  isRemeraProduct,
+  matchesRemeraSpecs,
+  remeraDropTokens,
+  extractGender,
+} from './remera'
 
 export function searchProducts(all, rawQuery, { limit = 4 } = {}) {
   const q = normalize(rawQuery || '')

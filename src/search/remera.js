@@ -284,24 +284,24 @@ export const matchesRemeraSpecs = (product, specs = {}) => {
   }
 
   // ✅ GÉNERO: HACERLO MÁS ESTRICTO
-   // ✅ GÉNERO: MATCH EXACTO (unisex NO sirve para géneros específicos)
+  // ✅ GÉNERO: MATCH EXACTO (unisex NO sirve para géneros específicos)
   if (specs.gender) {
     const g = extractGender(text)
-    
+
     console.log('  - Product gender:', g)
     console.log('  - Query gender:', specs.gender)
-    
+
     if (!g) {
       console.log('  ❌ Product has no gender')
       return false
     }
-    
+
     // Match exacto: male solo acepta male, female solo acepta female, unisex solo acepta unisex
     if (g !== specs.gender) {
       console.log('  ❌ Gender mismatch')
       return false
     }
-    
+
     console.log('  ✅ Gender match!')
   }
 

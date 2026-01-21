@@ -11521,7 +11521,7 @@
       "id": "MLA99110001",
       "title": "Heladera Electrolux No Frost 364L Inverter Blanca",
       "price": 1749999,
-      "thumbnail": "Heladera Electrolux No Frost 364L Inverter Blanca",
+      "thumbnail": "https://multicenter.vtexassets.com/arquivos/ids/268732/Heladera-2-Puertas-Semi-Seco-DC36A-260-litros-Blanca-Electrolux-1-38419.jpg?v=638144950324970000",
       "shipping": {
         "free_shipping": true
       },
@@ -12107,26 +12107,6 @@
       },
       "address": {
         "state_name": "San Juan"
-      },
-      "category_path_from_root": [
-        {
-          "name": "hogar"
-        },
-        {
-          "name": "lavarropas"
-        }
-      ]
-    },
-    {
-      "id": "MLA77230001",
-      "title": "Lavarropas Samsung Carga Frontal 8.5Kg Inverter",
-      "price": 1499999,
-      "thumbnail": "https://impomarc.com/cdn/shop/products/Lavadora-carga-frontal-samsung-8-kg-2.jpg?v=1614815458",
-      "shipping": {
-        "free_shipping": true
-      },
-      "address": {
-        "state_name": "Buenos Aires"
       },
       "category_path_from_root": [
         {
@@ -16798,86 +16778,6 @@
       ]
     },
     {
-      "id": "MLA336",
-      "title": "Remera Basica Algodon Blanca",
-      "price": 12900,
-      "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/215/740/products/mockup-blanca-basica-bf88224952dc09713317123240326199-1024-1024.webp",
-      "shipping": {
-        "free_shipping": false
-      },
-      "address": {
-        "state_name": "Buenos Aires"
-      },
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA337",
-      "title": "Remera Oversize Negra",
-      "price": 16900,
-      "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/469/280/products/over-negra-1-a16ee507295f6a836717135699103737-1024-1024.webp",
-      "shipping": {
-        "free_shipping": true
-      },
-      "address": {
-        "state_name": "Cordoba"
-      },
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA338",
-      "title": "Remera Estampada Urbana Gris",
-      "price": 18900,
-      "thumbnail": "https://monarqui.com.ar/wp-content/uploads/remera-gris-k086-droopy.jpg",
-      "shipping": {
-        "free_shipping": false
-      },
-      "address": {
-        "state_name": "Santa Fe"
-      },
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA339",
-      "title": "Remera Deportiva Dry Fit Azul",
-      "price": 21900,
-      "thumbnail": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw15f52322/products/NI_AV4896-410/NI_AV4896-410-1.JPG",
-      "shipping": {
-        "free_shipping": true
-      },
-      "address": {
-        "state_name": "Mendoza"
-      },
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
       "id": "MLA1036",
       "title": "Remera unisex Nike negra verano",
       "price": 64900,
@@ -18081,7 +17981,7 @@
       "id": "MLA9372202452",
       "title": "Remera unisex Under Armour verde verano",
       "price": 22999,
-      "thumbnail": "https://production.cdn.vaypol.com/variants/8e97fr4nq9n6lb2bqn5py4g78q9t/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "thumbnail": "https://production.cdn.vaypol.com/variants/97c15uv7gcbnia64pa1soko791vi/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
       "shipping": {
         "free_shipping": true
       },
@@ -18247,6 +18147,406 @@
       },
       "address": {
         "state_name": "Córdoba"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302501",
+      "title": "Remera para hombre Nike negra manga larga invierno",
+      "price": 32999,
+      "thumbnail": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa31230d5/products/NIFB7908-010/NIFB7908-010-2.JPG",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Buenos Aires"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302502",
+      "title": "Remera para hombre Adidas gris manga larga invierno",
+      "price": 31999,
+      "thumbnail": "https://celadasa.vtexassets.com/arquivos/ids/535982/IL7157-2.jpg?v=638821276090970000",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "CABA"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302503",
+      "title": "Remera para hombre Puma azul marino manga larga invierno",
+      "price": 29999,
+      "thumbnail": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/526628/01/mod03/fnd/ARG/fmt/png",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Córdoba"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302504",
+      "title": "Remera para hombre Levis blanca manga larga invierno",
+      "price": 34999,
+      "thumbnail": "https://img01.ztat.net/article/spp-media-p1/a455a92edf4440c988013e5bba464e66/8ece942802ba482591953780038ee86e.jpg?imwidth=1800",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Santa Fe"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302505",
+      "title": "Remera para hombre Tommy Hilfiger azul manga larga invierno",
+      "price": 48999,
+      "thumbnail": "https://tommymx.vtexassets.com/arquivos/ids/565003/Tommy-Hilfiger-MW0MW32591DW5-1.jpg",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Buenos Aires"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302506",
+      "title": "Remera para hombre Lacoste verde oscuro manga larga invierno",
+      "price": 46999,
+      "thumbnail": "https://img01.ztat.net/article/spp-media-p1/510f3df0ac50390e90c0ec5c270e2ec3/b6a08d9d8f0e462d9869589ab1ae4b85.jpg?imwidth=1800",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Mendoza"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302507",
+      "title": "Remera para hombre Under Armour negra manga larga invierno",
+      "price": 35999,
+      "thumbnail": "https://production.cdn.vaypol.com/variants/16xsyupc6pj3nu3h1fy1vlmnnthu/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Neuquén"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302508",
+      "title": "Remera para hombre Reebok gris oscuro manga corta verano",
+      "price": 28999,
+      "thumbnail": "https://reebok.com.ar/cdn/shop/files/RBK2100071827-1.jpg?v=1756497595&width=1920",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Entre Ríos"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302509",
+      "title": "Remera para hombre Vans negra manga larga invierno",
+      "price": 33999,
+      "thumbnail": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997034/VN000PC2BLK-HERO/Cafe-Vans-Long-Sleeve-TShirt.jpg",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "CABA"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302510",
+      "title": "Remera para hombre Fila bordó manga larga invierno",
+      "price": 27999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "La Plata"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302511",
+      "title": "Remera para hombre Kappa negra manga larga invierno",
+      "price": 23999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Salta"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302512",
+      "title": "Remera para hombre Topper gris manga larga invierno",
+      "price": 21999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Tucumán"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302513",
+      "title": "Remera para hombre Umbro azul manga larga invierno",
+      "price": 24999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "San Juan"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302514",
+      "title": "Remera para hombre New Balance verde oliva manga larga invierno",
+      "price": 33999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Buenos Aires"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302515",
+      "title": "Remera para hombre DC Shoes negra manga larga invierno",
+      "price": 35999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Mar del Plata"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302516",
+      "title": "Remera para hombre Converse blanca manga larga invierno",
+      "price": 32999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Rosario"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302517",
+      "title": "Remera para hombre Hummel azul oscuro manga larga invierno",
+      "price": 26999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Chubut"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302518",
+      "title": "Remera para hombre Benetton verde manga larga invierno",
+      "price": 38999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "CABA"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302519",
+      "title": "Remera para hombre Quiksilver negra manga larga invierno",
+      "price": 36999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": false
+      },
+      "address": {
+        "state_name": "Pinamar"
+      },
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302520",
+      "title": "Remera para hombre Rip Curl gris manga larga invierno",
+      "price": 35999,
+      "thumbnail": "",
+      "shipping": {
+        "free_shipping": true
+      },
+      "address": {
+        "state_name": "Bahía Blanca"
       },
       "category_path_from_root": [
         {
