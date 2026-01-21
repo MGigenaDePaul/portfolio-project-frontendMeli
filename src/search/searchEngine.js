@@ -78,18 +78,21 @@ export function searchProducts(all, rawQuery, { limit = 4 } = {}) {
     pool = pool.filter((p) => matchesLavarropaSpecs(p, intent.lavarropaSpecs))
   }
 
- if (intent.type === 'remera') {
-  console.log('REMERAS start', pool.length)
+  if (intent.type === 'remera') {
+    console.log('REMERAS start', pool.length)
 
-  const a = pool.filter((p) => isRemeraProduct(p))
-  console.log('REMERAS after isRemeraProduct', a.length)
+    const a = pool.filter((p) => isRemeraProduct(p))
+    console.log('REMERAS after isRemeraProduct', a.length)
 
-  const b = a.filter((p) => matchesRemeraSpecs(p, intent.remeraSpecs))
-  console.log('REMERAS after matchesRemeraSpecs', b.length, intent.remeraSpecs)
+    const b = a.filter((p) => matchesRemeraSpecs(p, intent.remeraSpecs))
+    console.log(
+      'REMERAS after matchesRemeraSpecs',
+      b.length,
+      intent.remeraSpecs,
+    )
 
-  pool = b
-}
-
+    pool = b
+  }
 
   if (intent.type === 'camera') {
     // fallback por texto para evitar colados raros (por si hay alguno mal categorizado)
