@@ -9836,7 +9836,7 @@
       "price": 1749999,
       "condition": "new",
       "sold_quantity": 3900,
-      "fullImage": "Heladera Electrolux No Frost 364L Inverter Blanca",
+      "fullImage": "https://multicenter.vtexassets.com/arquivos/ids/268732/Heladera-2-Puertas-Semi-Seco-DC36A-260-litros-Blanca-Electrolux-1-38419.jpg?v=638144950324970000",
       "description": "Heladera Electrolux No Frost 364L Inverter Blanca. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
       "category_path_from_root": [
         {
@@ -14302,93 +14302,8 @@
       ]
     },
     {
-      "id": "MLA336",
-      "title": "Remera Basica Algodon Blanca",
-      "price": 12900,
-      "condition": "new",
-      "sold_quantity": 644,
-      "fullImage": "https://acdn-us.mitiendanube.com/stores/002/215/740/products/mockup-blanca-basica-bf88224952dc09713317123240326199-1024-1024.webp",
-      "description": "Remera Basica Algodon Blanca. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA337",
-      "title": "Remera Oversize Negra",
-      "price": 16900,
-      "condition": "new",
-      "sold_quantity": 3088,
-      "fullImage": "https://acdn-us.mitiendanube.com/stores/002/469/280/products/over-negra-1-a16ee507295f6a836717135699103737-1024-1024.webp",
-      "description": "Remera Oversize Negra. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA338",
-      "title": "Remera Estampada Urbana Gris",
-      "price": 18900,
-      "condition": "new",
-      "sold_quantity": 1599,
-      "fullImage": "https://monarqui.com.ar/wp-content/uploads/remera-gris-k086-droopy.jpg",
-      "description": "Remera Estampada Urbana Gris. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA339",
-      "title": "Remera Deportiva Dry Fit Azul",
-      "price": 21900,
-      "condition": "new",
-      "sold_quantity": 1856,
-      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw15f52322/products/NI_AV4896-410/NI_AV4896-410-1.JPG",
-      "description": "Remera Deportiva Dry Fit Azul. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
-      "id": "MLA340",
-      "title": "Remera Manga Larga Basica",
-      "price": 20900,
-      "condition": "new",
-      "sold_quantity": 3107,
-      "fullImage": "https://tresasesbasicos.com.ar/wp-content/uploads/2025/04/tres-ases7973.jpg",
-      "description": "Remera Manga Larga Basica. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
       "id": "MLA1036",
-      "title": "Nike remera negra",
+      "title": "Remera unisex Nike negra verano",
       "price": 64900,
       "condition": "new",
       "sold_quantity": 2739,
@@ -14405,7 +14320,7 @@
     },
     {
       "id": "MLA1037",
-      "title": "Adidas remera blanca",
+      "title": "Remera unisex Adidas blanca verano",
       "price": 59900,
       "condition": "new",
       "sold_quantity": 3797,
@@ -14422,7 +14337,7 @@
     },
     {
       "id": "MLA1038",
-      "title": "Puma remera azul",
+      "title": "Remera Unisex Puma azul verano",
       "price": 52900,
       "condition": "new",
       "sold_quantity": 3216,
@@ -14439,7 +14354,7 @@
     },
     {
       "id": "MLA1039",
-      "title": "Under Armour remera gris",
+      "title": "Remera unisex Under Armour gris verano",
       "price": 67900,
       "condition": "new",
       "sold_quantity": 2293,
@@ -14456,7 +14371,7 @@
     },
     {
       "id": "MLA1040",
-      "title": "Lacoste remera verde",
+      "title": "Remera unisex Lacoste verde verano",
       "price": 119900,
       "condition": "new",
       "sold_quantity": 3965,
@@ -14473,7 +14388,7 @@
     },
     {
       "id": "MLA1041",
-      "title": "Tommy remera roja",
+      "title": "Remera unisex Tommy roja verano",
       "price": 109900,
       "condition": "new",
       "sold_quantity": 78,
@@ -14490,7 +14405,7 @@
     },
     {
       "id": "MLA1042",
-      "title": "Levi's remera beige",
+      "title": "Remera unisex Levis beige primavera",
       "price": 79900,
       "condition": "new",
       "sold_quantity": 1522,
@@ -14507,7 +14422,7 @@
     },
     {
       "id": "MLA1043",
-      "title": "Calvin Klein remera negra",
+      "title": "Remera unise Calvin Klein negra primavera",
       "price": 129900,
       "condition": "new",
       "sold_quantity": 2277,
@@ -14524,7 +14439,7 @@
     },
     {
       "id": "MLA1044",
-      "title": "Ralph Lauren remera azul",
+      "title": "Remera unisex Ralph Lauren azul verano",
       "price": 149900,
       "condition": "new",
       "sold_quantity": 3762,
@@ -14541,7 +14456,7 @@
     },
     {
       "id": "MLA1045",
-      "title": "The North Face remera gris",
+      "title": "Remera unisex The North Face gris verano",
       "price": 119900,
       "condition": "new",
       "sold_quantity": 2850,
@@ -14558,7 +14473,7 @@
     },
     {
       "id": "MLA1051",
-      "title": "Nike remera blanca",
+      "title": "Remera unisex Nike blanca primavera",
       "price": 99900,
       "condition": "new",
       "sold_quantity": 2201,
@@ -14575,7 +14490,7 @@
     },
     {
       "id": "MLA1052",
-      "title": "Tommy remera azul",
+      "title": "Remera unisex Tommy azul primavera",
       "price": 179900,
       "condition": "new",
       "sold_quantity": 1589,
@@ -14592,7 +14507,7 @@
     },
     {
       "id": "MLA1057",
-      "title": "Adidas remera verde",
+      "title": "Remera unisex Adidas verde primavera",
       "price": 59900,
       "condition": "new",
       "sold_quantity": 3520,
@@ -14609,7 +14524,7 @@
     },
     {
       "id": "MLA1058",
-      "title": "Puma remera roja",
+      "title": "Remera unisex Puma roja primavera",
       "price": 52900,
       "condition": "new",
       "sold_quantity": 501,
@@ -14626,7 +14541,7 @@
     },
     {
       "id": "MLA1060",
-      "title": "Tommy remera blanca",
+      "title": "Remera unisex Tommy blanca verano",
       "price": 179900,
       "condition": "new",
       "sold_quantity": 750,
@@ -14643,7 +14558,7 @@
     },
     {
       "id": "MLA7834529101",
-      "title": "Remera para hombre Nike algodón manga corta temporada verano",
+      "title": "Remera para hombre Nike algodón manga corta verano",
       "price": 27999,
       "condition": "new",
       "sold_quantity": 3886,
@@ -14660,7 +14575,7 @@
     },
     {
       "id": "MLA7834529102",
-      "title": "Remera para hombre Adidas Originals clásica algodón temporada primavera",
+      "title": "Remera para hombre Adidas Originals clásica algodón primavera",
       "price": 25999,
       "condition": "new",
       "sold_quantity": 162,
@@ -14677,7 +14592,7 @@
     },
     {
       "id": "MLA7834529103",
-      "title": "Remera para hombre Levi's lisa corte regular temporada invierno",
+      "title": "Remera para hombre Levis lisa corte regular invierno",
       "price": 31999,
       "condition": "new",
       "sold_quantity": 2581,
@@ -14694,7 +14609,7 @@
     },
     {
       "id": "MLA7834529104",
-      "title": "Remera deportiva para hombre Nike Dri-FIT entrenamiento temporada verano",
+      "title": "Remera deportiva para hombre Nike Dri-FIT entrenamiento verano",
       "price": 29999,
       "condition": "new",
       "sold_quantity": 93,
@@ -14711,7 +14626,7 @@
     },
     {
       "id": "MLA7834529105",
-      "title": "Remera deportiva para hombre Adidas Aeroready running temporada primavera",
+      "title": "Remera deportiva para hombre Adidas Aeroready running primavera",
       "price": 28999,
       "condition": "new",
       "sold_quantity": 2980,
@@ -14728,7 +14643,7 @@
     },
     {
       "id": "MLA7834529106",
-      "title": "Remera deportiva para hombre Puma DryCELL gym temporada verano",
+      "title": "Remera deportiva para hombre Puma DryCELL gym verano",
       "price": 26999,
       "condition": "new",
       "sold_quantity": 877,
@@ -14745,7 +14660,7 @@
     },
     {
       "id": "MLA8923411201",
-      "title": "Remera para hombre Nike algodón estampada urbana temporada verano",
+      "title": "Remera para hombre Nike algodón estampada urbana verano",
       "price": 28999,
       "condition": "new",
       "sold_quantity": 3082,
@@ -14762,7 +14677,7 @@
     },
     {
       "id": "MLA8923411202",
-      "title": "Remera para hombre Adidas Essentials lisa algodón temporada primavera",
+      "title": "Remera para hombre Adidas Essentials lisa algodón primavera",
       "price": 24999,
       "condition": "new",
       "sold_quantity": 2008,
@@ -14778,25 +14693,8 @@
       ]
     },
     {
-      "id": "MLA8923411203",
-      "title": "Remera para hombre Levi's básica cuello redondo temporada invierno",
-      "price": 32999,
-      "condition": "new",
-      "sold_quantity": 2778,
-      "fullImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvGQWo3zOsFuNM44UXnZIPWy6rkq3Y1fxQOw&s",
-      "description": "Remera para hombre Levi's básica cuello redondo temporada invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
-      "category_path_from_root": [
-        {
-          "name": "ropa"
-        },
-        {
-          "name": "remeras"
-        }
-      ]
-    },
-    {
       "id": "MLA8923411204",
-      "title": "Remera para hombre Tommy Hilfiger clásica logo frontal temporada primavera",
+      "title": "Remera para hombre Tommy Hilfiger clásica logo frontal primavera",
       "price": 38999,
       "condition": "new",
       "sold_quantity": 868,
@@ -14813,7 +14711,7 @@
     },
     {
       "id": "MLA8923411205",
-      "title": "Remera deportiva para hombre Nike Dri-FIT entrenamiento temporada verano",
+      "title": "Remera deportiva para hombre Nike Dri-FIT entrenamiento verano",
       "price": 29999,
       "condition": "new",
       "sold_quantity": 1198,
@@ -14830,7 +14728,7 @@
     },
     {
       "id": "MLA8923411206",
-      "title": "Remera deportiva para hombre Adidas Aeroready running temporada primavera",
+      "title": "Remera deportiva para hombre Adidas Aeroready running primavera",
       "price": 28999,
       "condition": "new",
       "sold_quantity": 2929,
@@ -14847,12 +14745,1066 @@
     },
     {
       "id": "MLA8923411207",
-      "title": "Remera deportiva para hombre Puma DryCELL gimnasio temporada verano",
+      "title": "Remera deportiva para hombre Puma DryCELL gimnasio verano",
       "price": 26999,
       "condition": "new",
       "sold_quantity": 2599,
       "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw256a5c84/products/PU_517318-27/PU_517318-27-01.JPG",
       "description": "Remera deportiva para hombre Puma DryCELL gimnasio temporada verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202401",
+      "title": "Remera para hombre Nike negra manga corta verano",
+      "price": 28999,
+      "condition": "new",
+      "sold_quantity": 95,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8451480a/products/NI_DD1992-010/NI_DD1992-010-1.JPG  ",
+      "description": "Remera para hombre Nike negra manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202402",
+      "title": "Remera para hombre Adidas blanca manga corta primavera",
+      "price": 24999,
+      "condition": "new",
+      "sold_quantity": 3564,
+      "fullImage": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwef5f9ce6/products/ADIA4846/ADIA4846-1.JPG",
+      "description": "Remera para hombre Adidas blanca manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202403",
+      "title": "Remera para hombre Puma azul manga corta verano",
+      "price": 23999,
+      "condition": "new",
+      "sold_quantity": 200,
+      "fullImage": "https://sportotalar.vtexassets.com/arquivos/ids/616907/672219-05-21015-LAPIS-LAZULI_1.png?v=638689394587570000",
+      "description": "Remera para hombre Puma azul manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202404",
+      "title": "Remera para hombre Levis gris manga larga invierno",
+      "price": 32999,
+      "condition": "new",
+      "sold_quantity": 3646,
+      "fullImage": "https://www.teironsurf.com/tienda/123805-large_default/jersey-levis-original-housemark-para-hombre.jpg",
+      "description": "Remera para hombre Levis gris manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202405",
+      "title": "Remera para hombre Lacoste verde manga corta primavera",
+      "price": 45999,
+      "condition": "new",
+      "sold_quantity": 2817,
+      "fullImage": "https://i.ebayimg.com/images/g/zvEAAOSwfsNkcPTL/s-l1200.webp",
+      "description": "Remera para hombre Lacoste verde manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202406",
+      "title": "Remera para hombre Tommy Hilfiger azul manga larga invierno",
+      "price": 48999,
+      "condition": "new",
+      "sold_quantity": 1968,
+      "fullImage": "https://i.ebayimg.com/images/g/HR4AAeSweN9pbQ8W/s-l1200.webp",
+      "description": "Remera para hombre Tommy Hilfiger azul manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202407",
+      "title": "Remera deportiva para hombre Nike roja manga corta verano",
+      "price": 29999,
+      "condition": "new",
+      "sold_quantity": 3786,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8f958bcb/products/NI_AR4997-657/NI_AR4997-657-1.JPG",
+      "description": "Remera deportiva para hombre Nike roja manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202408",
+      "title": "Remera deportiva para hombre Adidas azul manga corta primavera",
+      "price": 28999,
+      "condition": "new",
+      "sold_quantity": 3237,
+      "fullImage": "https://production.cdn.vaypol.com/variants/jugi2w9xiyz0z7b6o15hu3odg9et/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera deportiva para hombre Adidas azul manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202409",
+      "title": "Remera deportiva para hombre Puma negra manga corta verano",
+      "price": 26999,
+      "condition": "new",
+      "sold_quantity": 2828,
+      "fullImage": "https://production.cdn.vaypol.com/variants/6vlwun8wyn8cpis6lrf1en5s6ie8/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera deportiva para hombre Puma negra manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202410",
+      "title": "Remera deportiva para hombre Under Armour gris manga corta verano",
+      "price": 31999,
+      "condition": "new",
+      "sold_quantity": 539,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw924664f1/products/UA_1361426-012/UA_1361426-012-1.JPG",
+      "description": "Remera deportiva para hombre Under Armour gris manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202411",
+      "title": "Remera para hombre Topper blanca manga corta verano",
+      "price": 14999,
+      "condition": "new",
+      "sold_quantity": 161,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwccf0c23b/products/TO167405/TO167405-3.JPG",
+      "description": "Remera para hombre Topper blanca manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202412",
+      "title": "Remera para hombre Kappa negra manga larga invierno",
+      "price": 17999,
+      "condition": "new",
+      "sold_quantity": 1711,
+      "fullImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtHrZRlKEIPWsG0mnfRTtZQ8hiomWqYkM6Lw&s",
+      "description": "Remera para hombre Kappa negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202414",
+      "title": "Remera para hombre Vans negra manga corta verano",
+      "price": 27999,
+      "condition": "new",
+      "sold_quantity": 3064,
+      "fullImage": "https://www.indy.com.ar/cdn/shop/files/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5_5099b404-be89-47e5-97f3-9f909107ff29_1.jpg?v=1748462618",
+      "description": "Remera para hombre Vans negra manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202416",
+      "title": "Remera para mujer Nike rosa manga corta verano",
+      "price": 27999,
+      "condition": "new",
+      "sold_quantity": 3648,
+      "fullImage": "https://redsport.vtexassets.com/arquivos/ids/1189656/REMERA-NIKE-SPORTSWEAR-ESSENTIALS-MUJER.jpg?v=638613119632770000",
+      "description": "Remera para mujer Nike rosa manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202417",
+      "title": "Remera para mujer Adidas blanca manga corta primavera",
+      "price": 24999,
+      "condition": "new",
+      "sold_quantity": 1993,
+      "fullImage": "https://sportotalar.vtexassets.com/arquivos/ids/532516/IN1173-1074-WHITE_2.jpg?v=638884608450530000",
+      "description": "Remera para mujer Adidas blanca manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202418",
+      "title": "Remera para mujer Puma negra manga corta verano",
+      "price": 23999,
+      "condition": "new",
+      "sold_quantity": 3783,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwe431fc83/products/PU524961-01/PU524961-01-1.JPG",
+      "description": "Remera para mujer Puma negra manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202419",
+      "title": "Remera para mujer Levis celeste manga larga invierno",
+      "price": 31999,
+      "condition": "new",
+      "sold_quantity": 2331,
+      "fullImage": "https://lsco.scene7.com/is/image/lsco/A93330002-front-pdp-ld?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=2500",
+      "description": "Remera para mujer Levis celeste manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202420",
+      "title": "Remera para mujer Lacoste verde manga corta primavera",
+      "price": 46999,
+      "condition": "new",
+      "sold_quantity": 3927,
+      "fullImage": "https://production.cdn.vaypol.com/variants/3ufwp7m223ytu2w8yp4ezv7iih78/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera para mujer Lacoste verde manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202421",
+      "title": "Remera para mujer Tommy Hilfiger gris manga larga invierno",
+      "price": 48999,
+      "condition": "new",
+      "sold_quantity": 1965,
+      "fullImage": "https://m.media-amazon.com/images/I/91lfz11VZPL._AC_UY1000_.jpg",
+      "description": "Remera para mujer Tommy Hilfiger gris manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202422",
+      "title": "Remera deportiva para mujer Nike violeta manga corta verano",
+      "price": 29999,
+      "condition": "new",
+      "sold_quantity": 2689,
+      "fullImage": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw3ce6b946/products/NIFD4149-521/NIFD4149-521-1.JPG",
+      "description": "Remera deportiva para mujer Nike violeta manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202423",
+      "title": "Remera deportiva para mujer Adidas azul manga corta primavera",
+      "price": 28999,
+      "condition": "new",
+      "sold_quantity": 295,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwd1f15d84/products/ADIQ4485/ADIQ4485-2.JPG",
+      "description": "Remera deportiva para mujer Adidas azul manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202424",
+      "title": "Remera deportiva para mujer Puma fucsia manga corta verano",
+      "price": 26999,
+      "condition": "new",
+      "sold_quantity": 2648,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwbd30bfb0/products/PU_521803-13/PU_521803-13-1.JPG",
+      "description": "Remera deportiva para mujer Puma fucsia manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202425",
+      "title": "Remera deportiva para mujer Under Armour negra manga corta verano",
+      "price": 31999,
+      "condition": "new",
+      "sold_quantity": 895,
+      "fullImage": "https://sportotalar.vtexassets.com/arquivos/ids/605590/525547-01-21015-PUMA-BLACK_1.png?v=638673014642600000",
+      "description": "Remera deportiva para mujer Under Armour negra manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202426",
+      "title": "Remera para mujer Topper coral manga corta verano",
+      "price": 14999,
+      "condition": "new",
+      "sold_quantity": 1824,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwe738dba2/products/TO166982/TO166982-1.JPG",
+      "description": "Remera para mujer Topper coral manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202428",
+      "title": "Remera para mujer Reebok bordo manga corta otoño",
+      "price": 21999,
+      "condition": "new",
+      "sold_quantity": 2892,
+      "fullImage": "https://puntodeportivoar.vtexassets.com/arquivos/ids/656443-800-auto?v=639039116350300000&width=800&height=auto&aspect=true",
+      "description": "Remera para mujer Reebok bordo manga corta otoño. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202429",
+      "title": "Remera para mujer Zara negra manga corta primavera",
+      "price": 25999,
+      "condition": "new",
+      "sold_quantity": 386,
+      "fullImage": "https://static.zara.net/assets/public/0faa/0e1f/b1304526aa73/2df7662a8664/02335299800-018-e2/02335299800-018-e2.jpg?ts=1743597125428",
+      "description": "Remera para mujer Zara negra manga corta primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202430",
+      "title": "Remera para mujer H&M blanca manga corta verano",
+      "price": 19999,
+      "condition": "new",
+      "sold_quantity": 3794,
+      "fullImage": "https://hmuruguay.vtexassets.com/unsafe/1440x0/center/middle/https%3A%2F%2Fhmuruguay.vtexassets.com%2Farquivos%2Fids%2F5098491%2FRemera-entallada---Crema---H-M-UY.jpg%3Fv%3D639012801123000000",
+      "description": "Remera para mujer H&M blanca manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202446",
+      "title": "Remera unisex Nike negra verano",
+      "price": 21999,
+      "condition": "new",
+      "sold_quantity": 949,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwb07acc25/products/NIFN0825-010/NIFN0825-010-1.JPG",
+      "description": "Remera unisex Nike negra verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202447",
+      "title": "Remera unisex Adidas blanca verano",
+      "price": 19999,
+      "condition": "new",
+      "sold_quantity": 114,
+      "fullImage": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw3b8f6da5/products/ADIM9459/ADIM9459-1.JPG",
+      "description": "Remera unisex Adidas blanca verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202448",
+      "title": "Remera unisex Puma gris primavera",
+      "price": 18999,
+      "condition": "new",
+      "sold_quantity": 837,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw096d68ac/products/PU_851702-03/PU_851702-03-1.JPG",
+      "description": "Remera unisex Puma gris primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202449",
+      "title": "Remera unisex Levis azul marino invierno",
+      "price": 22999,
+      "condition": "new",
+      "sold_quantity": 662,
+      "fullImage": "https://acdn-us.mitiendanube.com/stores/001/251/987/products/img_0796-9fc9963124b574dcbf17369510244036-1024-1024.webp",
+      "description": "Remera unisex Levis azul marino invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202450",
+      "title": "Remera unisex Reebok roja verano",
+      "price": 19999,
+      "condition": "new",
+      "sold_quantity": 382,
+      "fullImage": "https://ferreira.vtexassets.com/arquivos/ids/545912-800-auto?v=638979441295670000&width=800&height=auto&aspect=true",
+      "description": "Remera unisex Reebok roja verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202451",
+      "title": "Remera unisex Vans negra invierno",
+      "price": 24999,
+      "condition": "new",
+      "sold_quantity": 2106,
+      "fullImage": "https://production.cdn.vaypol.com/variants/2ocysa9o32zy217alw15h2k1tj9q/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera unisex Vans negra invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202452",
+      "title": "Remera unisex Under Armour verde verano",
+      "price": 22999,
+      "condition": "new",
+      "sold_quantity": 70,
+      "fullImage": "https://production.cdn.vaypol.com/variants/97c15uv7gcbnia64pa1soko791vi/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera unisex Under Armour verde verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202453",
+      "title": "Remera unisex New Balance celeste primavera",
+      "price": 21999,
+      "condition": "new",
+      "sold_quantity": 998,
+      "fullImage": "https://production.cdn.vaypol.com/variants/aghrh3hhw7rbcutlmefcbm3wr7q9/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera unisex New Balance celeste primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202454",
+      "title": "Remera unisex Topper blanca verano",
+      "price": 15999,
+      "condition": "new",
+      "sold_quantity": 1280,
+      "fullImage": "https://megasports.vteximg.com.br/arquivos/ids/234891-1000-1000/02166374001_0.jpg?v=638636595243230000",
+      "description": "Remera unisex Topper blanca verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202455",
+      "title": "Remera unisex Kappa negra invierno",
+      "price": 17999,
+      "condition": "new",
+      "sold_quantity": 502,
+      "fullImage": "https://www.kappastore.com.ar/cdn/shop/files/K2322I2ZW-K005-1.jpg?v=1757530579",
+      "description": "Remera unisex Kappa negra invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202456",
+      "title": "Remera unisex Fila gris primavera",
+      "price": 18999,
+      "condition": "new",
+      "sold_quantity": 1051,
+      "fullImage": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw4f064160/products/FIF12L01350-4676/FIF12L01350-4676-2.JPG",
+      "description": "Remera unisex Fila gris primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202457",
+      "title": "Remera unisex Hummel azul verano",
+      "price": 17999,
+      "condition": "new",
+      "sold_quantity": 3346,
+      "fullImage": "https://acdn-us.mitiendanube.com/stores/384/008/products/jmt_5106-d273e04cc78c3bf6f717260693959534-1024-1024.webp",
+      "description": "Remera unisex Hummel azul verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202458",
+      "title": "Remera unisex Umbro negra primavera",
+      "price": 16999,
+      "condition": "new",
+      "sold_quantity": 420,
+      "fullImage": "https://umbroar.vtexassets.com/arquivos/ids/2439767/umbro_U34B02964_6577_01.jpg?v=638826961264900000",
+      "description": "Remera unisex Umbro negra primavera. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202459",
+      "title": "Remera unisex DC Shoes verde invierno",
+      "price": 25999,
+      "condition": "new",
+      "sold_quantity": 1819,
+      "fullImage": "https://www.indy.com.ar/cdn/shop/files/adykt03246_dcshoes_f_btg0_frt1-Photoroom.webp?v=1756307544&width=1946",
+      "description": "Remera unisex DC Shoes verde invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9372202460",
+      "title": "Remera unisex Converse beige verano",
+      "price": 23999,
+      "condition": "new",
+      "sold_quantity": 1188,
+      "fullImage": "https://www.indy.com.ar/cdn/shop/files/converse-playera-hombre-verde-algodon-10027713-a03-1_fzcqgpogumlclx22-Photoroom.webp?v=1752782736",
+      "description": "Remera unisex Converse beige verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302501",
+      "title": "Remera para hombre Nike negra manga larga invierno",
+      "price": 32999,
+      "condition": "new",
+      "sold_quantity": 3726,
+      "fullImage": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa31230d5/products/NIFB7908-010/NIFB7908-010-2.JPG",
+      "description": "Remera para hombre Nike negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302502",
+      "title": "Remera para hombre Adidas gris manga larga invierno",
+      "price": 31999,
+      "condition": "new",
+      "sold_quantity": 111,
+      "fullImage": "https://celadasa.vtexassets.com/arquivos/ids/535982/IL7157-2.jpg?v=638821276090970000",
+      "description": "Remera para hombre Adidas gris manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302503",
+      "title": "Remera para hombre Puma azul marino manga larga invierno",
+      "price": 29999,
+      "condition": "new",
+      "sold_quantity": 774,
+      "fullImage": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/526628/01/mod03/fnd/ARG/fmt/png",
+      "description": "Remera para hombre Puma azul marino manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302504",
+      "title": "Remera para hombre Levis blanca manga larga invierno",
+      "price": 34999,
+      "condition": "new",
+      "sold_quantity": 1407,
+      "fullImage": "https://img01.ztat.net/article/spp-media-p1/a455a92edf4440c988013e5bba464e66/8ece942802ba482591953780038ee86e.jpg?imwidth=1800",
+      "description": "Remera para hombre Levis blanca manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302505",
+      "title": "Remera para hombre Tommy Hilfiger azul manga larga invierno",
+      "price": 48999,
+      "condition": "new",
+      "sold_quantity": 745,
+      "fullImage": "https://tommymx.vtexassets.com/arquivos/ids/565003/Tommy-Hilfiger-MW0MW32591DW5-1.jpg",
+      "description": "Remera para hombre Tommy Hilfiger azul manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302506",
+      "title": "Remera para hombre Lacoste verde oscuro manga larga invierno",
+      "price": 46999,
+      "condition": "new",
+      "sold_quantity": 1225,
+      "fullImage": "https://img01.ztat.net/article/spp-media-p1/510f3df0ac50390e90c0ec5c270e2ec3/b6a08d9d8f0e462d9869589ab1ae4b85.jpg?imwidth=1800",
+      "description": "Remera para hombre Lacoste verde oscuro manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302507",
+      "title": "Remera para hombre Under Armour negra manga larga invierno",
+      "price": 35999,
+      "condition": "new",
+      "sold_quantity": 1823,
+      "fullImage": "https://production.cdn.vaypol.com/variants/16xsyupc6pj3nu3h1fy1vlmnnthu/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "description": "Remera para hombre Under Armour negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302508",
+      "title": "Remera para hombre Reebok gris oscuro manga corta verano",
+      "price": 28999,
+      "condition": "new",
+      "sold_quantity": 121,
+      "fullImage": "https://reebok.com.ar/cdn/shop/files/RBK2100071827-1.jpg?v=1756497595&width=1920",
+      "description": "Remera para hombre Reebok gris oscuro manga corta verano. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302509",
+      "title": "Remera para hombre Vans negra manga larga invierno",
+      "price": 33999,
+      "condition": "new",
+      "sold_quantity": 1988,
+      "fullImage": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997034/VN000PC2BLK-HERO/Cafe-Vans-Long-Sleeve-TShirt.jpg",
+      "description": "Remera para hombre Vans negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302510",
+      "title": "Remera para hombre Fila bordó manga larga invierno",
+      "price": 27999,
+      "condition": "new",
+      "sold_quantity": 1911,
+      "fullImage": "",
+      "description": "Remera para hombre Fila bordó manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302511",
+      "title": "Remera para hombre Kappa negra manga larga invierno",
+      "price": 23999,
+      "condition": "new",
+      "sold_quantity": 523,
+      "fullImage": "",
+      "description": "Remera para hombre Kappa negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302512",
+      "title": "Remera para hombre Topper gris manga larga invierno",
+      "price": 21999,
+      "condition": "new",
+      "sold_quantity": 1807,
+      "fullImage": "",
+      "description": "Remera para hombre Topper gris manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302513",
+      "title": "Remera para hombre Umbro azul manga larga invierno",
+      "price": 24999,
+      "condition": "new",
+      "sold_quantity": 952,
+      "fullImage": "",
+      "description": "Remera para hombre Umbro azul manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302514",
+      "title": "Remera para hombre New Balance verde oliva manga larga invierno",
+      "price": 33999,
+      "condition": "new",
+      "sold_quantity": 3135,
+      "fullImage": "",
+      "description": "Remera para hombre New Balance verde oliva manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302515",
+      "title": "Remera para hombre DC Shoes negra manga larga invierno",
+      "price": 35999,
+      "condition": "new",
+      "sold_quantity": 1542,
+      "fullImage": "",
+      "description": "Remera para hombre DC Shoes negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302516",
+      "title": "Remera para hombre Converse blanca manga larga invierno",
+      "price": 32999,
+      "condition": "new",
+      "sold_quantity": 3079,
+      "fullImage": "",
+      "description": "Remera para hombre Converse blanca manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302517",
+      "title": "Remera para hombre Hummel azul oscuro manga larga invierno",
+      "price": 26999,
+      "condition": "new",
+      "sold_quantity": 2697,
+      "fullImage": "",
+      "description": "Remera para hombre Hummel azul oscuro manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302518",
+      "title": "Remera para hombre Benetton verde manga larga invierno",
+      "price": 38999,
+      "condition": "new",
+      "sold_quantity": 1093,
+      "fullImage": "",
+      "description": "Remera para hombre Benetton verde manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302519",
+      "title": "Remera para hombre Quiksilver negra manga larga invierno",
+      "price": 36999,
+      "condition": "new",
+      "sold_quantity": 2813,
+      "fullImage": "",
+      "description": "Remera para hombre Quiksilver negra manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
+      "category_path_from_root": [
+        {
+          "name": "ropa"
+        },
+        {
+          "name": "remeras"
+        }
+      ]
+    },
+    {
+      "id": "MLA9483302520",
+      "title": "Remera para hombre Rip Curl gris manga larga invierno",
+      "price": 35999,
+      "condition": "new",
+      "sold_quantity": 3527,
+      "fullImage": "",
+      "description": "Remera para hombre Rip Curl gris manga larga invierno. Producto nuevo, ideal para su categoría. Publicación orientativa con características generales.",
       "category_path_from_root": [
         {
           "name": "ropa"
