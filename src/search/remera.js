@@ -2,13 +2,12 @@ import { tokenize, stem, stemTokens, normalize } from './normalize'
 import { buildSearchText } from './text'
 import { matchesPathPrefix } from './categoryMatch'
 
-
 // Crear el Set con versiones stemmed
 const createStemmedSet = (words) => {
   const stemmedSet = new Set()
-  words.forEach(word => {
-    stemmedSet.add(word)           // original
-    stemmedSet.add(stem(word))     // stemmed
+  words.forEach((word) => {
+    stemmedSet.add(word) // original
+    stemmedSet.add(stem(word)) // stemmed
   })
   return stemmedSet
 }
@@ -119,18 +118,18 @@ const hasShortSleeve = (text = '') =>
 const hasLongSleeve = (text = '') =>
   /\bmanga\s*larga\b/.test(text) || /\blong\s*sleeve\b/.test(text)
 
-const extractGender = (text = '') => {
+export const extractGender = (text = '') => {
   const normalizedText = normalize(text)
   const stemmedTokens = stemTokens(text)
   const stemmedJoined = stemmedTokens.join(' ')
-  
+
   // 🔍 DEBUG - eliminá esto después de probar
   console.log('🔍 extractGender DEBUG:')
   console.log('  - original:', text)
   console.log('  - normalized:', normalizedText)
   console.log('  - stemmedTokens:', stemmedTokens)
   console.log('  - stemmedJoined:', stemmedJoined)
-  
+
   if (/\bunisex\b/.test(normalizedText)) return 'unisex'
 
   if (/\b(para\s+)?(hombre|varon|masculin|men)\b/i.test(stemmedJoined)) {
@@ -155,11 +154,11 @@ const extractSeason = (text = '') => {
   if (/\b(invierno|winter)\b/.test(text)) return 'winter'
   if (/\b(primavera|spring)\b/.test(text)) return 'spring'
   if (/\b(otono|otoño|autumn|fall)\b/.test(text)) return 'autumn'
-  
+
   // Comentá estas líneas - no infieras temporada por manga
   // if (hasShortSleeve(text)) return 'summer'
   // if (hasLongSleeve(text)) return 'winter'
-  
+
   return null
 }
 
@@ -201,7 +200,7 @@ const extractBrand = (tokens, joined) => {
 
 // -------------------- intent detection --------------------
 export const isRemeraQuery = (q) => {
-  const tokens = stemTokens(q) 
+  const tokens = stemTokens(q)
   const joined = tokens.join(' ')
   const hasWord = tokens.some((t) => remeraWords.has(t))
   const hasNegative = tokens.some((t) => negativeWords.has(t))
@@ -238,8 +237,8 @@ export const isRemeraProduct = (product) => {
 export const parseRemeraQuery = (q) => {
   const normalizedText = normalize(q)
   const tokens = tokenize(q)
-  const stemmedTokens = stemTokens(q)  // ✅ Agregar esto
-  const joined = stemmedTokens.join(' ')  // ✅ Usar stemmed
+  const stemmedTokens = stemTokens(q) // ✅ Agregar esto
+  const joined = stemmedTokens.join(' ') // ✅ Usar stemmed
 
   const brand = extractBrand(tokens, joined)
 
@@ -247,11 +246,11 @@ export const parseRemeraQuery = (q) => {
   if (hasShortSleeve(normalizedText)) sleeve = 'short'
   else if (hasLongSleeve(normalizedText)) sleeve = 'long'
 
-  const gender = extractGender(normalizedText)  // ✅ Esto ahora usará stem internamente
+  const gender = extractGender(normalizedText) // ✅ Esto ahora usará stem internamente
   const season = extractSeason(normalizedText)
 
-  const colors = extractColors(stemmedTokens, joined)  // ✅ Usar stemmed
-  const materials = extractMaterials(stemmedTokens)     // ✅ Usar stemmed
+  const colors = extractColors(stemmedTokens, joined) // ✅ Usar stemmed
+  const materials = extractMaterials(stemmedTokens) // ✅ Usar stemmed
 
   return { brand, sleeve, gender, season, colors, materials }
 }
@@ -264,47 +263,77 @@ export const matchesRemeraSpecs = (product, specs = {}) => {
   if (!isRemeraProduct(product)) return false
   const text = buildSearchText(product)
 
+  // 🔍 DEBUG
+  console.log('=== matchesRemeraSpecs DEBUG ===')
+  console.log('Product title:', product.title)
+  console.log('Product text:', text)
+  console.log('Specs:', specs)
   if (specs.brand && !text.includes(specs.brand)) return false
 
-  // manga: si pide corta, solo rechazá si dice manga larga (y viceversa)
-  if (specs.sleeve === 'short' && /\bmanga\s*larga\b/.test(text)) return false
-  if (specs.sleeve === 'long' && /\bmanga\s*corta\b/.test(text)) return false
+  // ✅ MANGA: HACERLO MÁS ESTRICTO
+  if (specs.sleeve) {
+    const hasShort = hasShortSleeve(text)
+    const hasLong = hasLongSleeve(text)
+
+    // Si el producto no declara tipo de manga, rechazarlo
+    if (!hasShort && !hasLong) return false
+
+    // Si declara el tipo de manga, debe coincidir con lo pedido
+    if (specs.sleeve === 'short' && !hasShort) return false
+    if (specs.sleeve === 'long' && !hasLong) return false
+  }
 
   // ✅ GÉNERO: HACERLO MÁS ESTRICTO
+   // ✅ GÉNERO: MATCH EXACTO (unisex NO sirve para géneros específicos)
   if (specs.gender) {
     const g = extractGender(text)
     
-    // Si el usuario pide un género específico, el producto DEBE declararlo
-    // O ser unisex (que sirve para todos)
-    if (!g) return false  // ← NUEVO: rechazar productos sin género declarado
-    if (g !== specs.gender && g !== 'unisex') return false
+    console.log('  - Product gender:', g)
+    console.log('  - Query gender:', specs.gender)
+    
+    if (!g) {
+      console.log('  ❌ Product has no gender')
+      return false
+    }
+    
+    // Match exacto: male solo acepta male, female solo acepta female, unisex solo acepta unisex
+    if (g !== specs.gender) {
+      console.log('  ❌ Gender mismatch')
+      return false
+    }
+    
+    console.log('  ✅ Gender match!')
   }
 
-  // temporada: si el producto declara otra, rechazar. si no declara, dejar pasar.
+  // ✅ TEMPORADA: HACERLO ESTRICTO
   if (specs.season) {
     const s = extractSeason(text)
-    if (s && s !== specs.season) {
-      console.log(`   ❌ Season conflict: product has ${s}, query needs ${specs.season}`)
+
+    // Si el producto no declara temporada, rechazarlo
+    if (!s) return false
+
+    // Si declara temporada, debe coincidir
+    if (s !== specs.season) {
+      console.log(
+        `   ❌ Season conflict: product has ${s}, query needs ${specs.season}`,
+      )
       return false
     }
   }
 
-  // color/material: solo si el producto declara alguno
+  // ✅ COLOR: HACERLO ESTRICTO
   if (specs.colors?.length) {
-    const declaresAny = Array.from(colorAliases.values()).some((c) =>
-      text.includes(c),
-    )
-    if (declaresAny) {
-      for (const c of specs.colors) if (!text.includes(c)) return false
+    // Verificar que el producto tenga TODOS los colores pedidos
+    for (const c of specs.colors) {
+      if (!text.includes(c)) return false
     }
   }
 
+  // ✅ MATERIAL: HACERLO ESTRICTO (opcional, depende de tu preferencia)
   if (specs.materials?.length) {
-    const declaresAny = Array.from(materialAliases.values()).some((m) =>
-      text.includes(m),
-    )
-    if (declaresAny) {
-      for (const m of specs.materials) if (!text.includes(m)) return false
+    // Verificar que el producto tenga TODOS los materiales pedidos
+    for (const m of specs.materials) {
+      if (!text.includes(m)) return false
     }
   }
 

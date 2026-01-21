@@ -14,12 +14,12 @@ export const stem = (word) => {
 
   // Mapeo explícito de palabras irregulares
   const stemMap = {
-    'hombres': 'hombre',
-    'mujeres': 'mujer',
-    'ninos': 'nino',
-    'ninas': 'nina',
+    hombres: 'hombre',
+    mujeres: 'mujer',
+    ninos: 'nino',
+    ninas: 'nina',
   }
-  
+
   if (stemMap[word]) {
     return stemMap[word]
   }
@@ -28,7 +28,7 @@ export const stem = (word) => {
   if (word.endsWith('es') && word.length > 4) {
     return word.slice(0, -2)
   }
-  
+
   // Plurales simples en -s
   if (word.endsWith('s') && word.length > 3) {
     return word.slice(0, -1)
